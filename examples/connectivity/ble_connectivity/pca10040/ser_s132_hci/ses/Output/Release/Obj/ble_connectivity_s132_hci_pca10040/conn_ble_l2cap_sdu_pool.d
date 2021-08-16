@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_l2cap_sdu_pool.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\conn_ble_l2cap_sdu_pool.c \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\conn_ble_l2cap_sdu_pool.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\conn_ble_l2cap_sdu_pool.c \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\conn_ble_l2cap_sdu_pool.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../components/libraries/util/app_util.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \

@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_hal_transport.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\common\transport\ser_hal_transport.c \
+ D\:\New\ folder\Test2\components\serialization\common\transport\ser_hal_transport.c \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/string.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \
@@ -25,7 +25,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_hal_transport.o: \
  ../config/sdk_config.h \
  ../../../../../../components/serialization/common/ser_config.h \
  ../../../../../../components/serialization/common/transport/ser_phy/ser_phy.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\common\transport\ser_hal_transport.h \
+ D\:\New\ folder\Test2\components\serialization\common\transport\ser_hal_transport.h \
  ../../../../../../components/libraries/scheduler/app_scheduler.h \
  ../../../../../../components/libraries/util/app_util.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stddef.h \

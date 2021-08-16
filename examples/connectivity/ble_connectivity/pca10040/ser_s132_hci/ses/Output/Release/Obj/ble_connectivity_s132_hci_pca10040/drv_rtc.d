@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/drv_rtc.o: \
- D\:\xdps-connectivity-new-firmware\components\libraries\timer\drv_rtc.c \
+ D\:\New\ folder\Test2\components\libraries\timer\drv_rtc.c \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \

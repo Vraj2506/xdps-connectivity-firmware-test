@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_user_mem.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\conn_ble_user_mem.c \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\conn_ble_user_mem.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\conn_ble_user_mem.c \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\conn_ble_user_mem.h \
  ../../../../../../components/softdevice/s132/headers/ble.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \

@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_error_handling.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\ser_conn_error_handling.c \
+ D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_error_handling.c \
  ../../../../../../components/libraries/util/nrf_assert.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \

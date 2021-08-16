@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_gap_sec_keys.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\conn_ble_gap_sec_keys.c \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\conn_ble_gap_sec_keys.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\conn_ble_gap_sec_keys.c \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\conn_ble_gap_sec_keys.h \
  ../../../../../../components/softdevice/s132/headers/ble_gap.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \

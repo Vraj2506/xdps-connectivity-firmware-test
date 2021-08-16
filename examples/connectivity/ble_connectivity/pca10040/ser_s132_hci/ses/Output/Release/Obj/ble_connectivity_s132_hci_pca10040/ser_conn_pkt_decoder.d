@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_pkt_decoder.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\ser_conn_pkt_decoder.c \
+ D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_pkt_decoder.c \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/string.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \
@@ -28,10 +28,10 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_pkt_decoder.o: \
  ../../../../../../components/serialization/common/cond_field_serialization.h \
  ../../../../../../components/serialization/common/ser_config.h \
  ../../../../../../components/serialization/common/transport/ser_hal_transport.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\ser_conn_pkt_decoder.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\ser_conn_cmd_decoder.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\ser_conn_dtm_cmd_decoder.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\ser_conn_reset_cmd_decoder.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_pkt_decoder.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_cmd_decoder.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_dtm_cmd_decoder.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_reset_cmd_decoder.h \
  ../../../../../../components/serialization/common/ser_dbg_sd_str.h \
  ../../../../../../components/libraries/log/nrf_log.h \
  ../../../../../../components/libraries/util/sdk_common.h \

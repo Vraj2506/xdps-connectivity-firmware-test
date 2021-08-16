@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o: \
- D\:\xdps-connectivity-new-firmware\components\softdevice\common\nrf_sdh_soc.c \
+ D\:\New\ folder\Test2\components\softdevice\common\nrf_sdh_soc.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
@@ -29,7 +29,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- D\:\xdps-connectivity-new-firmware\components\softdevice\common\nrf_sdh_soc.h \
+ D\:\New\ folder\Test2\components\softdevice\common\nrf_sdh_soc.h \
  ../../../../../../components/libraries/experimental_section_vars/nrf_section_iter.h \
  ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
  ../../../../../../components/libraries/util/nordic_common.h \
@@ -39,7 +39,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error_soc.h \
- D\:\xdps-connectivity-new-firmware\components\softdevice\common\nrf_sdh.h \
+ D\:\New\ folder\Test2\components\softdevice\common\nrf_sdh.h \
  ../../../../../../components/libraries/util/sdk_errors.h \
  ../../../../../../components/libraries/util/app_error.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdio.h \

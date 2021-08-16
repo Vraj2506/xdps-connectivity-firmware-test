@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/dtm_uart.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\hal\dtm_uart.c \
+ D\:\New\ folder\Test2\components\serialization\connectivity\hal\dtm_uart.c \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
@@ -53,7 +53,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/dtm_uart.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_sd_def.h \
  ../../../../../../components/softdevice/s132/headers/nrf_soc.h \
  ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\hal\dtm_uart.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\hal\dtm_uart.h \
  ../../../../../../components/serialization/common/transport/dtm_uart_params.h \
  ../../../../../../integration/nrfx/legacy/nrf_drv_uart.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_uarte.h \

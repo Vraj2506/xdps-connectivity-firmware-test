@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_memobj.o: \
- D\:\xdps-connectivity-new-firmware\components\libraries\memobj\nrf_memobj.c \
- D\:\xdps-connectivity-new-firmware\components\libraries\memobj\nrf_memobj.h \
+ D\:\New\ folder\Test2\components\libraries\memobj\nrf_memobj.c \
+ D\:\New\ folder\Test2\components\libraries\memobj\nrf_memobj.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdlib.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \

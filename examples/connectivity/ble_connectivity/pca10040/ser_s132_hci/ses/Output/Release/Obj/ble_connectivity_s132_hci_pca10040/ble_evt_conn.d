@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_evt_conn.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\ble_evt_conn.c \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\ble_evt_conn.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_evt_conn.c \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_evt_conn.h \
  ../../../../../../components/softdevice/s132/headers/ble.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
@@ -41,5 +41,5 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_evt_conn.o: \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/softdevice/s132/headers/nrf52/nrf_mbr.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\conn_ble_user_mem.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\conn_ble_user_mem.h \
  ../../../../../../components/serialization/common/ser_config.h

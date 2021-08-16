@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatt_struct_serialization.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\common\struct_ser\ble\ble_gatt_struct_serialization.c \
+ D\:\New\ folder\Test2\components\serialization\common\struct_ser\ble\ble_gatt_struct_serialization.c \
  ../../../../../../components/serialization/common/ble_serialization.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
@@ -7,9 +7,9 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatt_struct_serializat
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stddef.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \
  ../../../../../../components/serialization/common/cond_field_serialization.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\common\struct_ser\ble\ble_struct_serialization.h \
+ D\:\New\ folder\Test2\components\serialization\common\struct_ser\ble\ble_struct_serialization.h \
  ../../../../../../components/softdevice/s132/headers/ble_types.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\common\struct_ser\ble\ble_gatt_struct_serialization.h \
+ D\:\New\ folder\Test2\components\serialization\common\struct_ser\ble\ble_gatt_struct_serialization.h \
  ../../../../../../components/softdevice/s132/headers/ble_gatt.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \

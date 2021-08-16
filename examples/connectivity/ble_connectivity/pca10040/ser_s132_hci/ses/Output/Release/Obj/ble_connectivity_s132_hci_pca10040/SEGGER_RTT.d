@@ -1,7 +1,7 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/SEGGER_RTT.o: \
- D\:\xdps-connectivity-new-firmware\external\segger_rtt\SEGGER_RTT.c \
- D\:\xdps-connectivity-new-firmware\external\segger_rtt\SEGGER_RTT.h \
- D\:\xdps-connectivity-new-firmware\external\segger_rtt\SEGGER_RTT_Conf.h \
+ D\:\New\ folder\Test2\external\segger_rtt\SEGGER_RTT.c \
+ D\:\New\ folder\Test2\external\segger_rtt\SEGGER_RTT.h \
+ D\:\New\ folder\Test2\external\segger_rtt\SEGGER_RTT_Conf.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/libraries/util/app_util_platform.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \

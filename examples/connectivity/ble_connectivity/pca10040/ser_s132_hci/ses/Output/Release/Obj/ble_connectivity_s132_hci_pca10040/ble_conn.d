@@ -1,8 +1,8 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\ble_conn.c \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_conn.c \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/string.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\ble_conn.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_conn.h \
  ../../../../../../components/softdevice/s132/headers/ble.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \

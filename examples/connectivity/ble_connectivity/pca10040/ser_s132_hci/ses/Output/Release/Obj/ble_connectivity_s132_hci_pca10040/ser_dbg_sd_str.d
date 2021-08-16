@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_dbg_sd_str.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\common\ser_dbg_sd_str.c \
- D\:\xdps-connectivity-new-firmware\components\serialization\common\ser_dbg_sd_str.h \
+ D\:\New\ folder\Test2\components\serialization\common\ser_dbg_sd_str.c \
+ D\:\New\ folder\Test2\components\serialization\common\ser_dbg_sd_str.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../components/softdevice/s132/headers/nrf_soc.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \

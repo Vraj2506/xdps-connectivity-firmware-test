@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_event_encoder.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\ser_conn_event_encoder.c \
+ D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_event_encoder.c \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/string.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
@@ -34,8 +34,8 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_event_encoder.o: 
  ../../../../../../components/serialization/common/cond_field_serialization.h \
  ../../../../../../components/serialization/common/ser_config.h \
  ../../../../../../components/serialization/common/transport/ser_hal_transport.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\ser_conn_event_encoder.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\ser_conn_handlers.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_event_encoder.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_handlers.h \
  ../../../../../../components/softdevice/s132/headers/ble.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \

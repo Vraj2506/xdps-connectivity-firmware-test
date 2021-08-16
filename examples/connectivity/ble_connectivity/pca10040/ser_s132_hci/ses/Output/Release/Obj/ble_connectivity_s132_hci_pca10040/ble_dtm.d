@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o: \
- D\:\xdps-connectivity-new-firmware\components\ble\ble_dtm\ble_dtm.c \
+ D\:\New\ folder\Test2\components\ble\ble_dtm\ble_dtm.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
@@ -29,6 +29,6 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- D\:\xdps-connectivity-new-firmware\components\ble\ble_dtm\ble_dtm.h \
- D\:\xdps-connectivity-new-firmware\components\ble\ble_dtm\ble_dtm_hw.h \
+ D\:\New\ folder\Test2\components\ble\ble_dtm\ble_dtm.h \
+ D\:\New\ folder\Test2\components\ble\ble_dtm\ble_dtm_hw.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdlib.h
