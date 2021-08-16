@@ -1,9 +1,9 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_conn.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\ble_l2cap_conn.c \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_l2cap_conn.c \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdlib.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/string.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\ble_l2cap_conn.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_l2cap_conn.h \
  ../../../../../../components/softdevice/s132/headers/ble.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
@@ -41,7 +41,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_conn.o: \
  ../../../../../../components/serialization/common/struct_ser/ble/ble_struct_serialization.h \
  ../../../../../../components/serialization/common/struct_ser/ble/ble_l2cap_struct_serialization.h \
  ../../../../../../components/serialization/common/cond_field_serialization.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\conn_ble_l2cap_sdu_pool.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\conn_ble_l2cap_sdu_pool.h \
  ../../../../../../components/libraries/util/app_util.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \

@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_fprintf.o: \
- D\:\xdps-connectivity-new-firmware\external\fprintf\nrf_fprintf.c \
+ D\:\New\ folder\Test2\external\fprintf\nrf_fprintf.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
@@ -31,5 +31,5 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_fprintf.o: \
  ../../../../../../components/libraries/util/nrf_assert.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdarg.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- D\:\xdps-connectivity-new-firmware\external\fprintf\nrf_fprintf_format.h \
- D\:\xdps-connectivity-new-firmware\external\fprintf\nrf_fprintf.h
+ D\:\New\ folder\Test2\external\fprintf\nrf_fprintf_format.h \
+ D\:\New\ folder\Test2\external\fprintf\nrf_fprintf.h

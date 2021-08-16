@@ -200,6 +200,9 @@ uint32_t bsp_board_pin_to_button_idx(uint32_t pin_number);
  */
 uint32_t bsp_board_button_idx_to_pin(uint32_t button_idx);
 
+
+void atten_init(void);
+
 #define BSP_BOARD_LED_0 0
 #define BSP_BOARD_LED_1 1
 #define BSP_BOARD_LED_2 2
@@ -360,6 +363,16 @@ uint32_t bsp_board_button_idx_to_pin(uint32_t button_idx);
                                   for (pin = 0; pin < 32; pin++)      \
                                       if ( (leds_mask) & (1 << pin) ) \
                                           nrf_gpio_cfg_output(pin); } while (0)
+
+
+
+/*************************** Attenuator *********************************/
+
+#define ATTEN_LE_PIN      22  // latch enable pin for the attenuator
+#define ATTEN_CLK_PIN     23
+#define ATTEN_DATA_PIN    24
+
+/*************************** Attenuator *********************************/
 
 #ifdef __cplusplus
 }

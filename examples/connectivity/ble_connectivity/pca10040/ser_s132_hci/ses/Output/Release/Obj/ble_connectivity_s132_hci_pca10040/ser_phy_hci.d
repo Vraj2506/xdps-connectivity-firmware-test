@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\common\transport\ser_phy\ser_phy_hci.c \
+ D\:\New\ folder\Test2\components\serialization\common\transport\ser_phy\ser_phy_hci.c \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stddef.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/string.h \
@@ -45,8 +45,8 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o: \
  ../../../../../../components/libraries/queue/nrf_queue.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
  ../../../../../../components/libraries/util/sdk_errors.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\common\transport\ser_phy\ser_phy.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\common\transport\ser_phy\ser_phy_hci.h \
+ D\:\New\ folder\Test2\components\serialization\common\transport\ser_phy\ser_phy.h \
+ D\:\New\ folder\Test2\components\serialization\common\transport\ser_phy\ser_phy_hci.h \
  ../../../../../../components/libraries/crc16/crc16.h \
  ../../../../../../components/serialization/common/ser_config.h \
  ../../../../../../components/serialization/common/transport/ser_phy_debug_comm.h \

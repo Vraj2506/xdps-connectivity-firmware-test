@@ -88,6 +88,12 @@ typedef uint32_t dtm_cmd_t;                                                 /**<
 #define LE_TEST_SETUP_ANTENNA_ARRAY      8                                  /**< DTM command control: Antenna number and switch patern. */
 #define LE_TEST_SETUP_TRANSMIT_POWER     9                                  /**< DTM command control: Transmit power set. */
 
+#define LE_PHY_1M                       1                                   /**< DTM command parameter: Set PHY for future packets to use 1MBit PHY. */
+#define LE_PHY_2M                       2                                   /**< DTM command parameter: Set PHY for future packets to use 2MBit PHY. */
+#define LE_PHY_LE_CODED_S8              3                                   /**< DTM command parameter: Set PHY for future packets to use coded PHY with S=8. */
+#define LE_PHY_LE_CODED_S2              4                                   /**< DTM command parameter: Set PHY for future packets to use coded PHY with S=2 */
+
+
 #define LE_RESET_MIN_RANGE 0x00                                             /**< DTM command parameter: Reset. Minimum parameter value. */
 #define LE_RESET_MAX_RANGE 0x03                                             /**< DTM command parameter: Reset. Maximum parameter value. */
 
@@ -279,7 +285,7 @@ uint32_t dtm_wait(void);
  *
  * @return    DTM_SUCCESS or one of the DTM_ERROR_ values
  */
-uint32_t dtm_cmd(uint16_t cmd);
+uint32_t dtm_cmd(dtm_cmd_t cmd, dtm_freq_t freq, uint32_t length, dtm_pkt_type_t payload);
 
 
 /**@brief Function for reading the result of a DTM command

@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_strerror.o: \
- D\:\xdps-connectivity-new-firmware\components\libraries\strerror\nrf_strerror.c \
+ D\:\New\ folder\Test2\components\libraries\strerror\nrf_strerror.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
@@ -29,5 +29,5 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_strerror.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- D\:\xdps-connectivity-new-firmware\components\libraries\strerror\nrf_strerror.h \
+ D\:\New\ folder\Test2\components\libraries\strerror\nrf_strerror.h \
  ../../../../../../components/libraries/util/sdk_errors.h

@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_conn.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\nrf_soc_conn.c \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\nrf_soc_conn.c \
  ../../../../../../components/softdevice/s132/headers/nrf_soc.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
@@ -17,7 +17,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_conn.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error_soc.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\serializers\nrf_soc_conn.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\nrf_soc_conn.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/serialization/common/ble_serialization.h \
  ../../../../../../components/libraries/util/nordic_common.h \

@@ -1,9 +1,9 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_struct_serialization.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\common\struct_ser\ble\ble_struct_serialization.c \
- D\:\xdps-connectivity-new-firmware\components\serialization\common\struct_ser\ble\ble_struct_serialization.h \
+ D\:\New\ folder\Test2\components\serialization\common\struct_ser\ble\ble_struct_serialization.c \
+ D\:\New\ folder\Test2\components\serialization\common\struct_ser\ble\ble_struct_serialization.h \
  ../../../../../../components/softdevice/s132/headers/ble_types.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\common\struct_ser\ble\ble_gap_struct_serialization.h \
+ D\:\New\ folder\Test2\components\serialization\common\struct_ser\ble\ble_gap_struct_serialization.h \
  ../../../../../../components/softdevice/s132/headers/ble_gap.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
@@ -11,9 +11,9 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_struct_serialization.o
  ../../../../../../components/softdevice/s132/headers/ble_ranges.h \
  ../../../../../../components/softdevice/s132/headers/ble_types.h \
  ../../../../../../components/softdevice/s132/headers/ble_err.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\common\struct_ser\ble\ble_gatt_struct_serialization.h \
+ D\:\New\ folder\Test2\components\serialization\common\struct_ser\ble\ble_gatt_struct_serialization.h \
  ../../../../../../components/softdevice/s132/headers/ble_gatt.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\common\struct_ser\ble\ble_gatts_struct_serialization.h \
+ D\:\New\ folder\Test2\components\serialization\common\struct_ser\ble\ble_gatts_struct_serialization.h \
  ../../../../../../components/softdevice/s132/headers/ble_gatts.h \
  ../../../../../../components/softdevice/s132/headers/ble_gatt.h \
  ../../../../../../components/softdevice/s132/headers/ble_gap.h \
@@ -47,5 +47,5 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_struct_serialization.o
  ../../../../../../components/softdevice/s132/headers/ble_gatts.h \
  ../../../../../../components/serialization/common/cond_field_serialization.h \
  ../../../../../../components/serialization/common/ser_config.h \
- C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/string.h \
- ../../../../../../components/serialization/connectivity/codecs/ble/serializers/conn_ble_gap_sec_keys.h
+ ../../../../../../components/serialization/connectivity/codecs/ble/serializers/conn_ble_gap_sec_keys.h \
+ C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/string.h

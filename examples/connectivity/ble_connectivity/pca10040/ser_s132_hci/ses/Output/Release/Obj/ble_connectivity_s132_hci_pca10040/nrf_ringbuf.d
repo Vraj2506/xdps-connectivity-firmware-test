@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_ringbuf.o: \
- D\:\xdps-connectivity-new-firmware\components\libraries\ringbuf\nrf_ringbuf.c \
- D\:\xdps-connectivity-new-firmware\components\libraries\ringbuf\nrf_ringbuf.h \
+ D\:\New\ folder\Test2\components\libraries\ringbuf\nrf_ringbuf.c \
+ D\:\New\ folder\Test2\components\libraries\ringbuf\nrf_ringbuf.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../components/libraries/atomic/nrf_atomic.h \
  ../../../../../../components/libraries/util/sdk_common.h \

@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gattc.o: \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\middleware\conn_mw_ble_gattc.c \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\middleware\conn_mw_ble_gattc.c \
  ../../../../../../components/serialization/connectivity/codecs/ble/serializers/ble_gattc_conn.h \
  ../../../../../../components/softdevice/s132/headers/ble_gattc.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
@@ -27,7 +27,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gattc.o: \
  ../../../../../../components/softdevice/s132/headers/ble_l2cap.h \
  ../../../../../../components/softdevice/s132/headers/ble_gattc.h \
  ../../../../../../components/softdevice/s132/headers/ble_gatts.h \
- D\:\xdps-connectivity-new-firmware\components\serialization\connectivity\codecs\ble\middleware\conn_mw_ble_gattc.h \
+ D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\middleware\conn_mw_ble_gattc.h \
  ../../../../../../components/serialization/common/ble_serialization.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \

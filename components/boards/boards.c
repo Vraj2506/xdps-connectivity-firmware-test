@@ -43,6 +43,7 @@
 #endif
 #include <stdint.h>
 #include <stdbool.h>
+#include "nrf_delay.h"		  
 
 #if LEDS_NUMBER > 0
 static const uint8_t m_board_led_list[LEDS_NUMBER] = LEDS_LIST;
@@ -53,6 +54,16 @@ static const uint8_t m_board_btn_list[BUTTONS_NUMBER] = BUTTONS_LIST;
 #endif
 
 #if LEDS_NUMBER > 0
+
+
+#define ATTENUTOR   1
+
+/** Attenuator Declareations **/
+void attenuator_init(void);
+void attenuator_set(uint8_t dbm);
+
+
+
 bool bsp_board_led_state_get(uint32_t led_idx)
 {
     ASSERT(led_idx < LEDS_NUMBER);
@@ -225,4 +236,74 @@ void bsp_board_init(uint32_t init_flags)
         bsp_board_buttons_init();
     }
     #endif //BUTTONS_NUMBER > 0
+}
+
+void attenuator_init(void)
+{
+	nrf_gpio_cfg(ATTEN_LE_PIN, 
+        GPIO_PIN_CNF_DIR_Output,//NRF_GPIO_PIN_DIR_OUTPUT, 
+        NRF_GPIO_PIN_INPUT_DISCONNECT, 
+        NRF_GPIO_PIN_PULLUP, 
+        NRF_GPIO_PIN_S0D1, 
+        NRF_GPIO_PIN_NOSENSE 
+        ); 
+
+	nrf_gpio_cfg(ATTEN_DATA_PIN, 
+        GPIO_PIN_CNF_DIR_Output,//NRF_GPIO_PIN_DIR_OUTPUT, 
+        NRF_GPIO_PIN_INPUT_DISCONNECT, 
+        NRF_GPIO_PIN_PULLUP, 
+        NRF_GPIO_PIN_S0D1, 
+        NRF_GPIO_PIN_NOSENSE 
+        ); 
+
+	nrf_gpio_cfg(ATTEN_CLK_PIN, 
+        GPIO_PIN_CNF_DIR_Output,//NRF_GPIO_PIN_DIR_OUTPUT, 
+        NRF_GPIO_PIN_INPUT_DISCONNECT, 
+        NRF_GPIO_PIN_PULLUP, 
+        NRF_GPIO_PIN_S0D1, 
+        NRF_GPIO_PIN_NOSENSE 
+        ); 
+
+    nrf_gpio_pin_write(ATTEN_LE_PIN, 0);
+    nrf_gpio_pin_write(ATTEN_CLK_PIN, 0);
+}
+
+void attenuator_set(uint8_t dbm)
+{
+    nrf_gpio_pin_write(ATTEN_LE_PIN, 0);
+
+    nrf_delay_ms(10);
+
+    nrf_gpio_pin_write(ATTEN_CLK_PIN, 0);
+    nrf_delay_ms(10);
+
+    for(int8_t i = 5; i >=0; i--)
+    {
+        if(dbm & (1 << i))
+        {
+            nrf_gpio_pin_write(ATTEN_DATA_PIN, 1);
+        }
+        else
+        {
+            nrf_gpio_pin_write(ATTEN_DATA_PIN, 0);
+        }
+        nrf_delay_ms(5);
+        nrf_gpio_pin_write(ATTEN_CLK_PIN, 1);
+        nrf_delay_ms(5);
+        nrf_gpio_pin_write(ATTEN_CLK_PIN, 0);
+        nrf_delay_ms(5);
+    }
+
+    nrf_gpio_pin_write(ATTEN_LE_PIN, 1);
+    nrf_delay_ms(10);
+    nrf_gpio_pin_write(ATTEN_LE_PIN, 0);
+    nrf_delay_ms(10);
+}
+
+void atten_init(void)
+{
+#if (ATTENUTOR == 1)
+    attenuator_init();
+    attenuator_set(0);
+#endif  
 }
