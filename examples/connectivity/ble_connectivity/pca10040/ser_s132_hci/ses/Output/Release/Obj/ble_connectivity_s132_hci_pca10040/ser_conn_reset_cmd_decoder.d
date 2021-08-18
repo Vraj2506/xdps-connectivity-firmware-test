@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder.o: \
- D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_reset_cmd_decoder.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\ser_conn_reset_cmd_decoder.c \
  ../../../../../../components/softdevice/s132/headers/nrf_nvic.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
@@ -17,7 +17,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error_soc.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_reset_cmd_decoder.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\ser_conn_reset_cmd_decoder.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
  ../../../../../../components/libraries/scheduler/app_scheduler.h \
  ../config/sdk_config.h \
@@ -53,7 +53,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder
  ../../../../../../components/libraries/log/nrf_log_instance.h \
  ../../../../../../components/libraries/log/nrf_log_types.h \
  ../../../../../../components/libraries/log/nrf_log_types.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_handlers.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\ser_conn_handlers.h \
  ../../../../../../components/serialization/common/transport/ser_hal_transport.h \
  ../../../../../../components/softdevice/s132/headers/ble.h \
  ../../../../../../components/softdevice/s132/headers/ble_err.h \

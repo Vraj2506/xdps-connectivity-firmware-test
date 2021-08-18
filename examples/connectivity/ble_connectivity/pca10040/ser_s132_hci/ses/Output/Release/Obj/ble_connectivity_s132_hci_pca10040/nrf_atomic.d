@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_atomic.o: \
- D\:\New\ folder\Test2\components\libraries\atomic\nrf_atomic.c \
- D\:\New\ folder\Test2\components\libraries\atomic\nrf_atomic.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\atomic\nrf_atomic.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\atomic\nrf_atomic.h \
  ../../../../../../components/libraries/util/sdk_common.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
@@ -30,4 +30,4 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_atomic.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- D\:\New\ folder\Test2\components\libraries\atomic\nrf_atomic_internal.h
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\atomic\nrf_atomic_internal.h

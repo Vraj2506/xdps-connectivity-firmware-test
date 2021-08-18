@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_dtm_cmd_decoder.o: \
- D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_dtm_cmd_decoder.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\ser_conn_dtm_cmd_decoder.c \
  ../../../../../../components/libraries/util/app_util.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
@@ -34,8 +34,8 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_dtm_cmd_decoder.o
  ../../../../../../components/softdevice/s132/headers/nrf_error_sdm.h \
  ../../../../../../components/softdevice/s132/headers/nrf_soc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error_soc.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_dtm_cmd_decoder.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_handlers.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\ser_conn_dtm_cmd_decoder.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\ser_conn_handlers.h \
  ../../../../../../components/serialization/common/transport/ser_hal_transport.h \
  ../../../../../../components/softdevice/s132/headers/ble.h \
  ../../../../../../components/softdevice/s132/headers/ble_err.h \

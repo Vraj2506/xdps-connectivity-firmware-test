@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_cmd_decoder.o: \
- D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_cmd_decoder.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\ser_conn_cmd_decoder.c \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/string.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \
@@ -29,8 +29,8 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_cmd_decoder.o: \
  ../../../../../../components/serialization/common/ser_config.h \
  ../../../../../../components/serialization/connectivity/codecs/ble/middleware/conn_mw.h \
  ../../../../../../components/serialization/common/transport/ser_hal_transport.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_cmd_decoder.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_handlers.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\ser_conn_cmd_decoder.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\ser_conn_handlers.h \
  ../../../../../../components/libraries/util/app_util.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/softdevice/s132/headers/nrf52/nrf_mbr.h \

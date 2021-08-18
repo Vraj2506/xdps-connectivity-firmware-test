@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_struct_serialization.o: \
- D\:\New\ folder\Test2\components\serialization\common\struct_ser\ble\ble_gatts_struct_serialization.c \
- D\:\New\ folder\Test2\components\serialization\common\struct_ser\ble\ble_gatt_struct_serialization.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\common\struct_ser\ble\ble_gatts_struct_serialization.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\common\struct_ser\ble\ble_gatt_struct_serialization.h \
  ../../../../../../components/softdevice/s132/headers/ble_gatt.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
@@ -9,13 +9,13 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_struct_serializa
  ../../../../../../components/softdevice/s132/headers/ble_ranges.h \
  ../../../../../../components/softdevice/s132/headers/ble_types.h \
  ../../../../../../components/softdevice/s132/headers/ble_err.h \
- D\:\New\ folder\Test2\components\serialization\common\struct_ser\ble\ble_gatts_struct_serialization.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\common\struct_ser\ble\ble_gatts_struct_serialization.h \
  ../../../../../../components/softdevice/s132/headers/ble_gatts.h \
  ../../../../../../components/softdevice/s132/headers/ble_gatt.h \
  ../../../../../../components/softdevice/s132/headers/ble_gap.h \
- D\:\New\ folder\Test2\components\serialization\common\struct_ser\ble\ble_gap_struct_serialization.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\common\struct_ser\ble\ble_gap_struct_serialization.h \
  ../../../../../../components/softdevice/s132/headers/ble_gap.h \
- D\:\New\ folder\Test2\components\serialization\common\struct_ser\ble\ble_struct_serialization.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\common\struct_ser\ble\ble_struct_serialization.h \
  ../../../../../../components/softdevice/s132/headers/ble_types.h \
  ../../../../../../components/serialization/common/ble_serialization.h \
  ../../../../../../components/libraries/util/nordic_common.h \

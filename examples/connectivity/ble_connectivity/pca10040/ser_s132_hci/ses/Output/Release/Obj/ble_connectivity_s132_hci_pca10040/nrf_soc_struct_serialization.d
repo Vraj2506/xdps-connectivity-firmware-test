@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_struct_serialization.o: \
- D\:\New\ folder\Test2\components\serialization\common\struct_ser\ble\nrf_soc_struct_serialization.c \
- D\:\New\ folder\Test2\components\serialization\common\struct_ser\ble\nrf_soc_struct_serialization.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\common\struct_ser\ble\nrf_soc_struct_serialization.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\common\struct_ser\ble\nrf_soc_struct_serialization.h \
  ../../../../../../components/softdevice/s132/headers/nrf_soc.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \

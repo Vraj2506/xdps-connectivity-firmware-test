@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/boards.o: \
- D\:\New\ folder\Test2\components\boards\boards.c \
- D\:\New\ folder\Test2\components\boards\boards.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\boards\boards.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\boards\boards.h \
  ../../../../../../modules/nrfx/hal/nrf_gpio.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
@@ -53,5 +53,5 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/boards.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_sd_def.h \
  ../../../../../../components/softdevice/s132/headers/nrf_soc.h \
  ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
- D\:\New\ folder\Test2\components\boards\pca10040.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\boards\pca10040.h \
  ../../../../../../components/libraries/delay/nrf_delay.h

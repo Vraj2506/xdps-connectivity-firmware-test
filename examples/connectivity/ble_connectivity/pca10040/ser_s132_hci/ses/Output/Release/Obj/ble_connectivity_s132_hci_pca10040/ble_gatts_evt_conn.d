@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_evt_conn.o: \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_gatts_evt_conn.c \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_gatts_evt_conn.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\ble_gatts_evt_conn.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\ble_gatts_evt_conn.h \
  ../../../../../../components/softdevice/s132/headers/ble.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
@@ -34,7 +34,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_evt_conn.o: \
  ../../../../../../components/serialization/common/cond_field_serialization.h \
  ../../../../../../components/serialization/common/struct_ser/ble/ble_gatts_struct_serialization.h \
  ../../../../../../components/softdevice/s132/headers/ble_gatts.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\conn_ble_user_mem.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\conn_ble_user_mem.h \
  ../../../../../../components/serialization/common/ser_config.h \
  ../../../../../../components/libraries/util/app_util.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \

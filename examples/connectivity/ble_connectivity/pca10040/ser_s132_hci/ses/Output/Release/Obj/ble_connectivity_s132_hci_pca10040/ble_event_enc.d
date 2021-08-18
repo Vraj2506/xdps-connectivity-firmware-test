@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_event_enc.o: \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_event_enc.c \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_conn.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\ble_event_enc.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\ble_conn.h \
  ../../../../../../components/softdevice/s132/headers/ble.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
@@ -26,11 +26,11 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_event_enc.o: \
  ../../../../../../modules/nrfx/mdk/nrf52_name_change.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/softdevice/s132/headers/ble_gatts.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_evt_conn.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_gap_evt_conn.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_gattc_evt_conn.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_gatts_evt_conn.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_l2cap_evt_conn.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\ble_evt_conn.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\ble_gap_evt_conn.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\ble_gattc_evt_conn.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\ble_gatts_evt_conn.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\ble_l2cap_evt_conn.h \
  ../../../../../../components/serialization/common/ble_serialization.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \

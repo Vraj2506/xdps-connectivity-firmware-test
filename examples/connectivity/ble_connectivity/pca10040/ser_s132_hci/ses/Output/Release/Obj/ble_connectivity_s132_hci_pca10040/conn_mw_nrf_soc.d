@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_nrf_soc.o: \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\common\conn_mw_nrf_soc.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\common\conn_mw_nrf_soc.c \
  ../../../../../../components/serialization/connectivity/codecs/ble/serializers/nrf_soc_conn.h \
  ../../../../../../components/softdevice/s132/headers/nrf_soc.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
@@ -18,7 +18,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_nrf_soc.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error_soc.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\common\conn_mw_nrf_soc.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\common\conn_mw_nrf_soc.h \
  ../../../../../../components/serialization/common/ble_serialization.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \

@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o: \
- D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_handlers.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\ser_conn_handlers.c \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/string.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \
  ../../../../../../components/libraries/util/app_error.h \
@@ -30,7 +30,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o: \
  ../../../../../../components/softdevice/s132/headers/nrf52/nrf_mbr.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/serialization/common/ser_config.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_handlers.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\ser_conn_handlers.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/serialization/common/transport/ser_hal_transport.h \
  ../../../../../../components/softdevice/s132/headers/ble.h \
@@ -50,9 +50,9 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o: \
  ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
  ../../../../../../components/libraries/util/sdk_errors.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_event_encoder.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_pkt_decoder.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\ser_conn_dtm_cmd_decoder.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\ser_conn_event_encoder.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\ser_conn_pkt_decoder.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\ser_conn_dtm_cmd_decoder.h \
  ../../../../../../components/softdevice/common/nrf_sdh.h \
  ../../../../../../components/serialization/connectivity/codecs/ble/serializers/conn_ble_gap_sec_keys.h \
  ../../../../../../components/softdevice/s132/headers/ble_gap.h \

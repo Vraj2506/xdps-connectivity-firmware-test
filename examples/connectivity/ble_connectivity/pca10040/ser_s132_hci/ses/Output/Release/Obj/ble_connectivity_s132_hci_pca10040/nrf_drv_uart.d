@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o: \
- D\:\New\ folder\Test2\integration\nrfx\legacy\nrf_drv_uart.c \
- D\:\New\ folder\Test2\integration\nrfx\legacy\nrf_drv_uart.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\integration\nrfx\legacy\nrf_drv_uart.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\integration\nrfx\legacy\nrf_drv_uart.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \

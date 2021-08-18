@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_util_platform.o: \
- D\:\New\ folder\Test2\components\libraries\util\app_util_platform.c \
- D\:\New\ folder\Test2\components\libraries\util\app_util_platform.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\util\app_util_platform.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\util\app_util_platform.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
@@ -20,12 +20,12 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_util_platform.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error_soc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_nvic.h \
- D\:\New\ folder\Test2\components\libraries\util\nrf_assert.h \
- D\:\New\ folder\Test2\components\libraries\util\app_error.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\util\nrf_assert.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\util\app_error.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdio.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
- D\:\New\ folder\Test2\components\libraries\util\sdk_errors.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\util\sdk_errors.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
- D\:\New\ folder\Test2\components\libraries\util\nordic_common.h \
- D\:\New\ folder\Test2\components\libraries\util\app_error_weak.h
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\util\nordic_common.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\util\app_error_weak.h

@@ -433,9 +433,10 @@ size_t nrf_queue_in(nrf_queue_t const * p_queue,
 static void queue_read(nrf_queue_t const * p_queue, void * p_data, uint32_t element_count)
 {
     size_t front        = p_queue->p_cb->front;
-    size_t continuous   = continous_items_get(p_queue, false);
-    void const * p_read_ptr = (void const *)((size_t)p_queue->p_buffer
-                                           + front * p_queue->element_size);
+    size_t back         = p_queue->p_cb->back;
+    size_t continuous   = (front <= back) ? (back - front) : (p_queue->size + 1 - front);    
+    void const * p_read_ptr = (void const *)((size_t)p_queue->p_buffer 
+    										+ front * p_queue->element_size);
 
     if (element_count <= continuous)
     {

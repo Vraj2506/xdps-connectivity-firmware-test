@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o: \
- D\:\New\ folder\Test2\examples\connectivity\ble_connectivity\main.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\examples\connectivity\ble_connectivity\main.c \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
  ../../../../../../components/softdevice/s132/headers/nrf_sdm.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \

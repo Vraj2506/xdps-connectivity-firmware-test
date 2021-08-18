@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_assert.o: \
- D\:\New\ folder\Test2\components\libraries\util\nrf_assert.c \
- D\:\New\ folder\Test2\components\libraries\util\nrf_assert.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\util\nrf_assert.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\util\nrf_assert.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52.h \
@@ -14,11 +14,11 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_assert.o: \
  ../../../../../../modules/nrfx/mdk/nrf51_to_nrf52.h \
  ../../../../../../modules/nrfx/mdk/nrf52_name_change.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
- D\:\New\ folder\Test2\components\libraries\util\app_error.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\util\app_error.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdio.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
- D\:\New\ folder\Test2\components\libraries\util\sdk_errors.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\util\sdk_errors.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
- D\:\New\ folder\Test2\components\libraries\util\nordic_common.h \
- D\:\New\ folder\Test2\components\libraries\util\app_error_weak.h
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\util\nordic_common.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\util\app_error_weak.h

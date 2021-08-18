@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_atomic.o: \
- D\:\New\ folder\Test2\modules\nrfx\soc\nrfx_atomic.c \
- D\:\New\ folder\Test2\modules\nrfx\soc\nrfx_atomic.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\modules\nrfx\soc\nrfx_atomic.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\modules\nrfx\soc\nrfx_atomic.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
@@ -52,4 +52,4 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_atomic.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_sd_def.h \
  ../../../../../../components/softdevice/s132/headers/nrf_soc.h \
  ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
- D\:\New\ folder\Test2\modules\nrfx\soc\nrfx_atomic_internal.h
+ D\:\New\ folder\xdps-connectivity-firmware-test\modules\nrfx\soc\nrfx_atomic_internal.h

@@ -1,7 +1,7 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o: \
- D\:\New\ folder\Test2\integration\nrfx\legacy\nrf_drv_clock.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\integration\nrfx\legacy\nrf_drv_clock.c \
  ../../../../../../components/libraries/util/nordic_common.h \
- D\:\New\ folder\Test2\integration\nrfx\legacy\nrf_drv_clock.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\integration\nrfx\legacy\nrf_drv_clock.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_clock.h \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \

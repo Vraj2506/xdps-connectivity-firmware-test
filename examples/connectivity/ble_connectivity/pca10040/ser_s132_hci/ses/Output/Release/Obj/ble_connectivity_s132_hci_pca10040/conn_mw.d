@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw.o: \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\common\conn_mw.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\common\conn_mw.c \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stddef.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \
  ../../../../../../components/serialization/common/ble_serialization.h \
@@ -23,8 +23,8 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error.h \
  ../../../../../../components/softdevice/s132/headers/nrf_error_soc.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\common\conn_mw_items.c \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\common\conn_mw_nrf_soc.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\common\conn_mw_items.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\common\conn_mw_nrf_soc.h \
  ../../../../../../components/softdevice/s132/headers/ble.h \
  ../../../../../../components/softdevice/s132/headers/ble_err.h \
  ../../../../../../components/softdevice/s132/headers/ble_gap.h \

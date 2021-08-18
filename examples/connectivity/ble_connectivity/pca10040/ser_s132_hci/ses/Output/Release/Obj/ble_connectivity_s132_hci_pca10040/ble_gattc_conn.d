@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_conn.o: \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_gattc_conn.c \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_gattc_conn.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\ble_gattc_conn.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\ble_gattc_conn.h \
  ../../../../../../components/softdevice/s132/headers/ble_gattc.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \

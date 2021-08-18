@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_evt_conn.o: \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_gap_evt_conn.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\ble_gap_evt_conn.c \
  ../../../../../../components/softdevice/s132/headers/ble.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
@@ -25,7 +25,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_evt_conn.o: \
  ../../../../../../modules/nrfx/mdk/nrf52_name_change.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/softdevice/s132/headers/ble_gatts.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_gap_evt_conn.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\ble_gap_evt_conn.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/string.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \
  ../../../../../../components/serialization/common/ble_serialization.h \
@@ -38,7 +38,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_evt_conn.o: \
  ../../../../../../components/softdevice/s132/headers/ble_gap.h \
  ../../../../../../components/serialization/common/struct_ser/ble/ble_struct_serialization.h \
  ../../../../../../components/softdevice/s132/headers/ble_types.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\conn_ble_gap_sec_keys.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\conn_ble_gap_sec_keys.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
  ../../../../../../components/libraries/util/app_util.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \

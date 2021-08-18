@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/crc16.o: \
- D\:\New\ folder\Test2\components\libraries\crc16\crc16.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\crc16\crc16.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
@@ -29,5 +29,5 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/crc16.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- D\:\New\ folder\Test2\components\libraries\crc16\crc16.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\crc16\crc16.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdlib.h

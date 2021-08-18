@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sortlist.o: \
- D\:\New\ folder\Test2\components\libraries\sortlist\nrf_sortlist.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\sortlist\nrf_sortlist.c \
  ../../../../../../components/libraries/util/sdk_common.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdbool.h \
@@ -29,7 +29,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sortlist.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
- D\:\New\ folder\Test2\components\libraries\sortlist\nrf_sortlist.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\sortlist\nrf_sortlist.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
  ../../../../../../components/libraries/log/nrf_log.h \
  ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \

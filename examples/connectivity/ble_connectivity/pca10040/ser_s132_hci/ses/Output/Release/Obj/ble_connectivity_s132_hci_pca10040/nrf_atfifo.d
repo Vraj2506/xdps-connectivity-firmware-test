@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_atfifo.o: \
- D\:\New\ folder\Test2\components\libraries\atomic_fifo\nrf_atfifo.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\atomic_fifo\nrf_atfifo.c \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/string.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
@@ -22,7 +22,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_atfifo.o: \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
  ../../../../../../components/softdevice/s132/headers/nrf52/nrf_mbr.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
- D\:\New\ folder\Test2\components\libraries\atomic_fifo\nrf_atfifo.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\atomic_fifo\nrf_atfifo.h \
  ../config/sdk_config.h \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/libraries/util/nrf_assert.h \
@@ -31,7 +31,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_atfifo.o: \
  ../../../../../../components/libraries/log/nrf_log_instance.h \
  ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
  ../../../../../../components/libraries/log/nrf_log_types.h \
- D\:\New\ folder\Test2\components\libraries\atomic_fifo\nrf_atfifo_internal.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\libraries\atomic_fifo\nrf_atfifo_internal.h \
  ../../../../../../components/libraries/log/nrf_log.h \
  ../../../../../../components/libraries/util/sdk_common.h \
  ../../../../../../components/libraries/util/sdk_os.h \

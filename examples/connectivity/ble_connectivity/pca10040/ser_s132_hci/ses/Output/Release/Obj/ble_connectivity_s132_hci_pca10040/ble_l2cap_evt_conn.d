@@ -1,6 +1,6 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_evt_conn.o: \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_l2cap_evt_conn.c \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\ble_l2cap_evt_conn.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\ble_l2cap_evt_conn.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\ble_l2cap_evt_conn.h \
  ../../../../../../components/softdevice/s132/headers/ble.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
@@ -43,4 +43,4 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_evt_conn.o: \
  ../../../../../../components/libraries/util/nordic_common.h \
  ../../../../../../components/softdevice/s132/headers/nrf52/nrf_mbr.h \
  ../../../../../../components/softdevice/s132/headers/nrf_svc.h \
- D\:\New\ folder\Test2\components\serialization\connectivity\codecs\ble\serializers\conn_ble_l2cap_sdu_pool.h
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\connectivity\codecs\ble\serializers\conn_ble_l2cap_sdu_pool.h

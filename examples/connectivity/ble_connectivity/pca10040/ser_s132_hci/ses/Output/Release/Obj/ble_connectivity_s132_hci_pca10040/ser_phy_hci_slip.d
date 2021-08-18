@@ -1,8 +1,8 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o: \
- D\:\New\ folder\Test2\components\serialization\common\transport\ser_phy\ser_phy_hci_slip.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\common\transport\ser_phy\ser_phy_hci_slip.c \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/string.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/__crossworks.h \
- D\:\New\ folder\Test2\components\serialization\common\transport\ser_phy\ser_phy_hci.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\components\serialization\common\transport\ser_phy\ser_phy_hci.h \
  C\:/Program\ Files\ (x86)/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.50d/include/stdint.h \
  ../../../../../../components/serialization/common/ser_config.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \

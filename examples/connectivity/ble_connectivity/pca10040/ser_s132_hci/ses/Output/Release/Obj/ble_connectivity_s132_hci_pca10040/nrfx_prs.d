@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o: \
- D\:\New\ folder\Test2\modules\nrfx\drivers\src\prs\nrfx_prs.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\modules\nrfx\drivers\src\prs\nrfx_prs.c \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
@@ -51,7 +51,7 @@ Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o: \
  ../../../../../../components/softdevice/s132/headers/nrf_sd_def.h \
  ../../../../../../components/softdevice/s132/headers/nrf_soc.h \
  ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
- D\:\New\ folder\Test2\modules\nrfx\drivers\src\prs\nrfx_prs.h \
+ D\:\New\ folder\xdps-connectivity-firmware-test\modules\nrfx\drivers\src\prs\nrfx_prs.h \
  ../../../../../../integration/nrfx/nrfx_log.h \
  ../../../../../../components/libraries/log/nrf_log.h \
  ../../../../../../components/libraries/util/sdk_common.h \

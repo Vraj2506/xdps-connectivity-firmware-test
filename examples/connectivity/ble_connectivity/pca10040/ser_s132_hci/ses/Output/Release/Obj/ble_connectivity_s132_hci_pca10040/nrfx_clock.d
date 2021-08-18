@@ -1,5 +1,5 @@
 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o: \
- D\:\New\ folder\Test2\modules\nrfx\drivers\src\nrfx_clock.c \
+ D\:\New\ folder\xdps-connectivity-firmware-test\modules\nrfx\drivers\src\nrfx_clock.c \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
