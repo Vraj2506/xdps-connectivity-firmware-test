@@ -1,27 +1,57 @@
 <!DOCTYPE CrossStudio_Session_File>
 <session>
  <Bookmarks/>
- <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="136" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../../../../integration/nrfx/legacy/nrf_drv_uart.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="609" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../../../../modules/nrfx/drivers/src/nrfx_uarte.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="117" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../../../../components/serialization/connectivity/ser_conn_handlers.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="89" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../../../../components/serialization/connectivity/ser_conn_handlers.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="71" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../../../../components/serialization/connectivity/ser_conn_pkt_decoder.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="122" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../../../../components/serialization/common/transport/ser_hal_transport.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="126" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../../../../components/serialization/common/transport/ser_hal_transport.c" useHWbreakpoint="false"/>
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
  <ExecutionProfileWindow/>
  <FrameBufferWindow>
   <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
  </FrameBufferWindow>
- <Memory1/>
- <Memory2/>
- <Memory3/>
- <Memory4/>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="ble_connectivity_s132_hci_pca10040" radix="16" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="ble_connectivity_s132_hci_pca10040" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="ble_connectivity_s132_hci_pca10040" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="ble_connectivity_s132_hci_pca10040" radix="16" sizeText="" addressText=""/>
+ </Memory4>
  <Project>
   <ProjectSessionItem path="ble_connectivity_s132_hci_pca10040"/>
   <ProjectSessionItem path="ble_connectivity_s132_hci_pca10040;ble_connectivity_s132_hci_pca10040"/>
   <ProjectSessionItem path="ble_connectivity_s132_hci_pca10040;ble_connectivity_s132_hci_pca10040;Application"/>
+  <ProjectSessionItem path="ble_connectivity_s132_hci_pca10040;ble_connectivity_s132_hci_pca10040;Board Definition"/>
+  <ProjectSessionItem path="ble_connectivity_s132_hci_pca10040;ble_connectivity_s132_hci_pca10040;None"/>
   <ProjectSessionItem path="ble_connectivity_s132_hci_pca10040;ble_connectivity_s132_hci_pca10040;nRF_BLE"/>
+  <ProjectSessionItem path="ble_connectivity_s132_hci_pca10040;ble_connectivity_s132_hci_pca10040;nRF_Drivers"/>
+  <ProjectSessionItem path="ble_connectivity_s132_hci_pca10040;ble_connectivity_s132_hci_pca10040;nRF_Libraries"/>
+  <ProjectSessionItem path="ble_connectivity_s132_hci_pca10040;ble_connectivity_s132_hci_pca10040;nRF_Log"/>
   <ProjectSessionItem path="ble_connectivity_s132_hci_pca10040;ble_connectivity_s132_hci_pca10040;nRF_Serialization"/>
   <ProjectSessionItem path="ble_connectivity_s132_hci_pca10040;ble_connectivity_s132_hci_pca10040;nRF_SoftDevice"/>
  </Project>
- <Register1/>
- <Register2/>
- <Register3/>
- <Register4/>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="ble_connectivity_s132_hci_pca10040" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="ble_connectivity_s132_hci_pca10040" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="ble_connectivity_s132_hci_pca10040" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="ble_connectivity_s132_hci_pca10040" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
  <Threads>
   <ThreadsWindow showLists=""/>
  </Threads>
@@ -29,7 +59,9 @@
   <Trace enabled="Yes"/>
  </TraceWindow>
  <Watch1>
-  <Watches active="1" update="Never"/>
+  <Watches active="1" update="Never">
+   <Watchpoint expression="event" name="event" radix="-1" linenumber="609" filename="../../../../../../modules/nrfx/drivers/src/nrfx_uarte.c"/>
+  </Watches>
  </Watch1>
  <Watch2>
   <Watches active="0" update="Never"/>
@@ -41,7 +73,38 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="57" y="25" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="8" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="18" y="165" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="150" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="243" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/components/serialization/connectivity/hal/dtm_uart.h" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/connectivity/hal/dtm_uart.c" selected="0" top="234" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="26" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/components/serialization/connectivity/hal/dtm_uart.c" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/connectivity/hal/dtm_uart.h" selected="0" top="12" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/connectivity/codecs/common/ble_dtm_init.c" selected="0" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="77" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/components/serialization/common/transport/ser_phy/ser_phy_hci_slip.c" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/nrf_drv_uart.c" selected="0" top="68" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="219" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/examples/connectivity/ble_connectivity/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/boards/boards.c" selected="0" top="219" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="349" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/examples/connectivity/ble_connectivity/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/common/transport/ser_hal_transport.c" selected="0" top="350" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="15" y="711" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/components/serialization/common/transport/ser_hal_transport.c" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/common/transport/ser_phy/ser_phy_hci.c" selected="0" top="699" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="51" y="76" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/components/serialization/common/transport/ser_phy/ser_phy_hci.c" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/common/transport/ser_phy/ser_phy_hci_slip.c" selected="0" top="58" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="72" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/components/serialization/common/transport/ser_phy/ser_phy_hci_slip.c" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/common/transport/ser_phy/config/ser_phy_config_conn.h" selected="0" top="55" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="21" y="89" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/components/serialization/common/transport/ser_phy/config/ser_phy_config_conn.h" useBinaryEdit="0" left="0" path="../../../../../../components/boards/pca10040.h" selected="0" top="80" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="21" y="137" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/examples/connectivity/ble_connectivity/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/connectivity/ser_conn_handlers.h" selected="0" top="121" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="5" y="86" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/examples/connectivity/ble_connectivity/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/connectivity/ser_conn_handlers.c" selected="0" top="106" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="78" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/components/serialization/connectivity/ser_conn_handlers.c" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/connectivity/ser_conn_pkt_decoder.c" selected="0" top="58" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="55" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/components/serialization/connectivity/ser_conn_pkt_decoder.c" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/connectivity/ser_conn_cmd_decoder.c" selected="0" top="54" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="107" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/examples/connectivity/ble_connectivity/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/common/ser_config.h" selected="0" top="93" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1718" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/common/struct_ser/ble/ble_gap_struct_serialization.c" selected="0" top="1708" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/components/serialization/common/struct_ser/ble/ble_gap_struct_serialization.c" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/common/struct_ser/ble/ble_gap_struct_serialization.h" selected="0" top="584" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="550" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/components/serialization/common/struct_ser/ble/ble_gap_struct_serialization.c" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/common/struct_ser/ble/ble_struct_serialization.c" selected="0" top="538" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="72" y="250" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/common/ble_serialization.h" selected="0" top="227" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="209" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/serialization/common/struct_ser/ble/ble_struct_serialization.h" selected="0" top="195" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="71" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/ses_startup_nrf52.s" selected="0" top="62" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="21" y="595" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/drivers/src/nrfx_uarte.c" selected="0" top="592" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="216" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/softdevice/common/nrf_sdh.c" selected="0" top="207" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="85" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_util_platform.c" selected="0" top="77" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="297" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/softdevice/s132/headers/nrf_nvic.h" selected="0" top="289" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="80" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/drivers/src/prs/nrfx_prs.c" selected="0" top="72" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="15" y="137" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/modules/nrfx/drivers/src/nrfx_uarte.c" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/drivers/include/nrfx_uarte.h" selected="0" top="135" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="24" y="1280" useTextEdit="1" openedFrom="D:/New folder/xdps-connectivity-firmware-test/modules/nrfx/drivers/src/nrfx_uarte.c" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/apply_old_config.h" selected="0" top="1277" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="26" y="653" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/drivers/src/nrfx_uart.c" selected="0" top="640" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="28" y="68" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/log/src/nrf_log_default_backends.c" selected="0" top="52" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="24" y="1132" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="1119" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="ble_connectivity_s132_hci_pca10040" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <ARMCrossStudioWindow activeProject="ble_connectivity_s132_hci_pca10040" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

@@ -1854,7 +1854,7 @@ Discarded input sections
  .data          0x00000000        0x0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_queue.o
  .bss           0x00000000        0x0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_queue.o
  .text.queue_read
-                0x00000000       0x5a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_queue.o
+                0x00000000       0x60 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_queue.o
  .text.nrf_queue_read
                 0x00000000       0x40 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_queue.o
  .text.nrf_queue_out
@@ -10299,7 +10299,7 @@ Linker script and memory map
                 0x00000001                . = ASSERT (((__init_rodata_start__ == __init_rodata_end__) || ((__init_rodata_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .init_rodata is too large to fit in FLASH memory segment)
                 0x000263d0                __text_load_start__ = ALIGN (__init_rodata_end__, 0x4)
 
-.text           0x000263d0     0xd4ee
+.text           0x000263d0     0xd4f2
                 0x000263d0                __text_start__ = .
  *(.text .text.* .glue_7t .glue_7 .gnu.linkonce.t.* .gcc_except_table .ARM.extab* .gnu.linkonce.armextab.*)
  .glue_7        0x000263d0        0x0 linker stubs
@@ -12215,326 +12215,326 @@ Linker script and memory map
  .text.hci_pkt_send
                 0x000309fc       0xb0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
  .text.hci_timeout_setup.part.0.constprop.0
-                0x00030aac       0x34 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x00030aac       0x38 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
  .text.hci_timer_reset
-                0x00030ae0       0x44 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x00030ae4       0x44 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
  .text.hci_release_ack_buffer.isra.0
-                0x00030b24       0x14 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x00030b28       0x14 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
  .text.rx_ack_pkt_valid
-                0x00030b38       0x40 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x00030b3c       0x40 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
  .text.hci_tx_fsm
-                0x00030b78      0x174 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x00030b7c      0x174 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
  .text.hci_tx_event_handler
-                0x00030cec       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x00030cf0       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
  .text.ack_transmit
-                0x00030d44       0x40 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x00030d48       0x40 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
  .text.hci_rx_fsm
-                0x00030d84      0x178 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x00030d88      0x178 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
  .text.hci_rx_event_handler
-                0x00030efc       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x00030f00       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
  .text.hci_slip_event_handler
-                0x00030f54       0xdc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x00030f58       0xdc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
  .text.TIMER2_IRQHandler
-                0x00031030       0x4c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
-                0x00031030                TIMER2_IRQHandler
+                0x00031034       0x4c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x00031034                TIMER2_IRQHandler
  .text.ser_phy_interrupts_enable
-                0x0003107c       0xc4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
-                0x0003107c                ser_phy_interrupts_enable
+                0x00031080       0xc4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x00031080                ser_phy_interrupts_enable
  .text.ser_phy_interrupts_disable
-                0x00031140       0x2c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
-                0x00031140                ser_phy_interrupts_disable
+                0x00031144       0x2c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x00031144                ser_phy_interrupts_disable
  .text.ser_phy_rx_buf_set
-                0x0003116c       0x34 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
-                0x0003116c                ser_phy_rx_buf_set
+                0x00031170       0x34 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x00031170                ser_phy_rx_buf_set
  .text.ser_phy_tx_pkt_send
-                0x000311a0       0x38 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
-                0x000311a0                ser_phy_tx_pkt_send
+                0x000311a4       0x38 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x000311a4                ser_phy_tx_pkt_send
  .text.ser_phy_hci_reset
-                0x000311d8       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
-                0x000311d8                ser_phy_hci_reset
+                0x000311dc       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x000311dc                ser_phy_hci_reset
  .text.ser_phy_open
-                0x00031228       0x48 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
-                0x00031228                ser_phy_open
+                0x0003122c       0x48 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x0003122c                ser_phy_open
  .text.ser_phy_close
-                0x00031270       0x24 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
-                0x00031270                ser_phy_close
+                0x00031274       0x24 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x00031274                ser_phy_close
  .text.slip_decode
-                0x00031294       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+                0x00031298       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
  .text.nrf_drv_uart_rx.constprop.0
-                0x000312e4       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+                0x000312e8       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
  .text.nrf_drv_uart_tx.constprop.0
-                0x0003130c       0x24 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+                0x00031310       0x24 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
  .text.tx_buf_put
-                0x00031330       0x90 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+                0x00031334       0x90 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
  .text.tx_buf_fill
-                0x000313c0      0x120 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+                0x000313c4      0x120 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
  .text.uart_event_handler
-                0x000314e0      0x230 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+                0x000314e4      0x230 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
  .text.ser_phy_hci_slip_tx_pkt_send
-                0x00031710       0xac Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
-                0x00031710                ser_phy_hci_slip_tx_pkt_send
+                0x00031714       0xac Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+                0x00031714                ser_phy_hci_slip_tx_pkt_send
  .text.ser_phy_hci_slip_rx_buf_free
-                0x000317bc       0x38 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
-                0x000317bc                ser_phy_hci_slip_rx_buf_free
+                0x000317c0       0x38 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+                0x000317c0                ser_phy_hci_slip_rx_buf_free
  .text.ser_phy_hci_slip_reset
-                0x000317f4       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
-                0x000317f4                ser_phy_hci_slip_reset
+                0x000317f8       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+                0x000317f8                ser_phy_hci_slip_reset
  .text.ser_phy_hci_slip_open
-                0x0003184c       0x4c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
-                0x0003184c                ser_phy_hci_slip_open
+                0x00031850       0x4c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+                0x00031850                ser_phy_hci_slip_open
  .text.ser_phy_hci_slip_close
-                0x00031898       0x30 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
-                0x00031898                ser_phy_hci_slip_close
+                0x0003189c       0x30 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+                0x0003189c                ser_phy_hci_slip_close
  .text.sd_clock_hfclk_request
-                0x000318c8        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
- .text.sd_clock_hfclk_is_running
                 0x000318cc        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+ .text.sd_clock_hfclk_is_running
+                0x000318d0        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
  .text.clock_clk_started_notify
-                0x000318d0       0x24 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+                0x000318d4       0x24 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
  .text.clock_irq_handler
-                0x000318f4       0x1c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+                0x000318f8       0x1c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
  .text.soc_evt_handler
-                0x00031910       0x14 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+                0x00031914       0x14 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
  .text.nrf_drv_clock_init
-                0x00031924       0x48 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
-                0x00031924                nrf_drv_clock_init
+                0x00031928       0x48 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+                0x00031928                nrf_drv_clock_init
  .text.nrf_drv_clock_lfclk_request
-                0x0003196c       0x68 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
-                0x0003196c                nrf_drv_clock_lfclk_request
+                0x00031970       0x68 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+                0x00031970                nrf_drv_clock_lfclk_request
  .text.nrf_drv_clock_lfclk_release
-                0x000319d4       0x40 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
-                0x000319d4                nrf_drv_clock_lfclk_release
+                0x000319d8       0x40 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+                0x000319d8                nrf_drv_clock_lfclk_release
  .text.sd_state_evt_handler
-                0x00031a14       0x64 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+                0x00031a18       0x64 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
  .text.nrf_drv_clock_hfclk_request
-                0x00031a78       0x74 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
-                0x00031a78                nrf_drv_clock_hfclk_request
+                0x00031a7c       0x74 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+                0x00031a7c                nrf_drv_clock_hfclk_request
  .text.nrf_drv_clock_hfclk_is_running
-                0x00031aec       0x32 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
-                0x00031aec                nrf_drv_clock_hfclk_is_running
- *fill*         0x00031b1e        0x2 
+                0x00031af0       0x32 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+                0x00031af0                nrf_drv_clock_hfclk_is_running
+ *fill*         0x00031b22        0x2 
  .text.uarte_evt_handler
-                0x00031b20       0x34 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
+                0x00031b24       0x34 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
  .text.uart_evt_handler
-                0x00031b54       0x34 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
+                0x00031b58       0x34 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
  .text.nrf_drv_uart_init
-                0x00031b88       0x7c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
-                0x00031b88                nrf_drv_uart_init
+                0x00031b8c       0x7c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
+                0x00031b8c                nrf_drv_uart_init
  .text.nrf_clock_event_clear
-                0x00031c04       0x14 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
+                0x00031c08       0x14 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
  .text.nrfx_clock_init
-                0x00031c18       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
-                0x00031c18                nrfx_clock_init
+                0x00031c1c       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
+                0x00031c1c                nrfx_clock_init
  .text.nrfx_clock_enable
-                0x00031c30       0x24 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
-                0x00031c30                nrfx_clock_enable
+                0x00031c34       0x24 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
+                0x00031c34                nrfx_clock_enable
  .text.nrfx_clock_lfclk_start
-                0x00031c54       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
-                0x00031c54                nrfx_clock_lfclk_start
+                0x00031c58       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
+                0x00031c58                nrfx_clock_lfclk_start
  .text.nrfx_clock_lfclk_stop
-                0x00031ca4       0x22 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
-                0x00031ca4                nrfx_clock_lfclk_stop
+                0x00031ca8       0x22 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
+                0x00031ca8                nrfx_clock_lfclk_stop
  .text.nrfx_clock_hfclk_start
-                0x00031cc6       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
-                0x00031cc6                nrfx_clock_hfclk_start
- *fill*         0x00031cde        0x2 
+                0x00031cca       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
+                0x00031cca                nrfx_clock_hfclk_start
+ *fill*         0x00031ce2        0x2 
  .text.POWER_CLOCK_IRQHandler
-                0x00031ce0       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
-                0x00031ce0                POWER_CLOCK_IRQHandler
+                0x00031ce4       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
+                0x00031ce4                POWER_CLOCK_IRQHandler
  .text.UARTE0_UART0_IRQHandler
-                0x00031d30        0xc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
-                0x00031d30                UARTE0_UART0_IRQHandler
+                0x00031d34        0xc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
+                0x00031d34                UARTE0_UART0_IRQHandler
  .text.nrfx_prs_acquire
-                0x00031d3c       0x44 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
-                0x00031d3c                nrfx_prs_acquire
+                0x00031d40       0x44 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
+                0x00031d40                nrfx_prs_acquire
  .text.nrfx_prs_release
-                0x00031d80       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
-                0x00031d80                nrfx_prs_release
+                0x00031d84       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
+                0x00031d84                nrfx_prs_release
  .text.nrf_uart_event_clear
-                0x00031d98       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
- .text.tx_byte  0x00031da8       0x1e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+                0x00031d9c       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+ .text.tx_byte  0x00031dac       0x1e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
  .text.rx_enable
-                0x00031dc6       0x20 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
- .text.rx_byte  0x00031de6       0x2c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
- *fill*         0x00031e12        0x2 
+                0x00031dca       0x20 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+ .text.rx_byte  0x00031dea       0x2c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+ *fill*         0x00031e16        0x2 
  .text.rx_done_event.constprop.0
-                0x00031e14       0x20 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+                0x00031e18       0x20 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
  .text.nrfx_uart_0_irq_handler
-                0x00031e34      0x140 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
-                0x00031e34                nrfx_uart_0_irq_handler
+                0x00031e38      0x140 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+                0x00031e38                nrfx_uart_0_irq_handler
  .text.nrfx_uart_init
-                0x00031f74      0x168 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
-                0x00031f74                nrfx_uart_init
+                0x00031f78      0x168 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+                0x00031f78                nrfx_uart_init
  .text.nrfx_uart_uninit
-                0x000320dc       0xd4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
-                0x000320dc                nrfx_uart_uninit
+                0x000320e0       0xd4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+                0x000320e0                nrfx_uart_uninit
  .text.nrfx_uart_tx_in_progress
-                0x000321b0       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
-                0x000321b0                nrfx_uart_tx_in_progress
+                0x000321b4       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+                0x000321b4                nrfx_uart_tx_in_progress
  .text.nrfx_uart_tx
-                0x000321c8       0xa0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
-                0x000321c8                nrfx_uart_tx
+                0x000321cc       0xa0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+                0x000321cc                nrfx_uart_tx
  .text.nrfx_uart_rx
-                0x00032268       0xf4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
-                0x00032268                nrfx_uart_rx
+                0x0003226c       0xf4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+                0x0003226c                nrfx_uart_rx
  .text.nrfx_uart_rx_enable
-                0x0003235c       0x2c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
-                0x0003235c                nrfx_uart_rx_enable
+                0x00032360       0x2c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+                0x00032360                nrfx_uart_rx_enable
  .text.nrf_uarte_event_clear
-                0x00032388       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
+                0x0003238c       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
  .text.rx_done_event.constprop.0
-                0x00032398       0x20 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
+                0x0003239c       0x20 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
  .text.nrfx_uarte_0_irq_handler
-                0x000323b8      0x118 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
-                0x000323b8                nrfx_uarte_0_irq_handler
+                0x000323bc      0x118 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
+                0x000323bc                nrfx_uarte_0_irq_handler
  .text.nrfx_uarte_init
-                0x000324d0      0x184 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
-                0x000324d0                nrfx_uarte_init
+                0x000324d4      0x184 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
+                0x000324d4                nrfx_uarte_init
  .text.nrfx_uarte_uninit
-                0x00032654      0x120 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
-                0x00032654                nrfx_uarte_uninit
+                0x00032658      0x120 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
+                0x00032658                nrfx_uarte_uninit
  .text.nrfx_uarte_tx_in_progress
-                0x00032774       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
-                0x00032774                nrfx_uarte_tx_in_progress
+                0x00032778       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
+                0x00032778                nrfx_uarte_tx_in_progress
  .text.nrfx_uarte_tx
-                0x0003278c       0x9c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
-                0x0003278c                nrfx_uarte_tx
+                0x00032790       0x9c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
+                0x00032790                nrfx_uarte_tx
  .text.nrfx_uarte_rx
-                0x00032828       0xd8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
-                0x00032828                nrfx_uarte_rx
+                0x0003282c       0xd8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
+                0x0003282c                nrfx_uarte_rx
  .text.sd_app_evt_wait
-                0x00032900        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
- .text.on_idle  0x00032904       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
+                0x00032904        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
+ .text.on_idle  0x00032908       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
  .text.startup.main
-                0x0003291c       0xd4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
-                0x0003291c                main
+                0x00032920       0xd4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
+                0x00032920                main
  .text.radio_reset
-                0x000329f0       0x48 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+                0x000329f4       0x48 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
  .text.dtm_test_done
-                0x00032a38       0x30 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+                0x00032a3c       0x30 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
  .text.radio_init
-                0x00032a68       0x94 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+                0x00032a6c       0x94 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
  .text.set_strict_mode
-                0x00032afc       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
-                0x00032afc                set_strict_mode
+                0x00032b00       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+                0x00032b00                set_strict_mode
  .text.radio_prepare
-                0x00032b54       0x94 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+                0x00032b58       0x94 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
  .text.anomaly_172_radio_operation
-                0x00032be8       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
-                0x00032be8                anomaly_172_radio_operation
+                0x00032bec       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+                0x00032bec                anomaly_172_radio_operation
  .text.anomaly_172_rssi_check
-                0x00032bf8       0x20 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
-                0x00032bf8                anomaly_172_rssi_check
+                0x00032bfc       0x20 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+                0x00032bfc                anomaly_172_rssi_check
  .text.dtm_init
-                0x00032c18       0xd4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
-                0x00032c18                dtm_init
+                0x00032c1c       0xd4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+                0x00032c1c                dtm_init
  .text.dtm_wait
-                0x00032cec      0x210 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
-                0x00032cec                dtm_wait
+                0x00032cf0      0x210 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+                0x00032cf0                dtm_wait
  .text.dtm_event_get
-                0x00032efc       0x1c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
-                0x00032efc                dtm_event_get
+                0x00032f00       0x1c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+                0x00032f00                dtm_event_get
  .text.dtm_set_txpower
-                0x00032f18       0x3c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
-                0x00032f18                dtm_set_txpower
+                0x00032f1c       0x3c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+                0x00032f1c                dtm_set_txpower
  .text.dtm_set_timer
-                0x00032f54       0x24 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
-                0x00032f54                dtm_set_timer
- .text.dtm_cmd  0x00032f78      0x2e0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
-                0x00032f78                dtm_cmd
+                0x00032f58       0x24 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+                0x00032f58                dtm_set_timer
+ .text.dtm_cmd  0x00032f7c      0x2e0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+                0x00032f7c                dtm_cmd
  .text.dtm_turn_off_test
-                0x00033258        0x2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
-                0x00033258                dtm_turn_off_test
- *fill*         0x0003325a        0x2 
+                0x0003325c        0x2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
+                0x0003325c                dtm_turn_off_test
+ *fill*         0x0003325e        0x2 
  .text.dtm_constant_carrier
-                0x0003325c       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
-                0x0003325c                dtm_constant_carrier
+                0x00033260       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
+                0x00033260                dtm_constant_carrier
  .text.dtm_radio_validate
-                0x0003326c       0x34 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
-                0x0003326c                dtm_radio_validate
+                0x00033270       0x34 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
+                0x00033270                dtm_radio_validate
  .text.dtm_hw_set_timer
-                0x000332a0       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
-                0x000332a0                dtm_hw_set_timer
+                0x000332a4       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
+                0x000332a4                dtm_hw_set_timer
  .text.instance_get
-                0x000332f8       0x24 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
+                0x000332fc       0x24 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
  .text.send_error_evt
-                0x0003331c       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
+                0x00033320       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
  .text.conn_params_negotiation
-                0x0003332c       0x48 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
+                0x00033330       0x48 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
  .text.is_conn_params_ok.constprop.0
-                0x00033374       0x32 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
- *fill*         0x000333a6        0x2 
+                0x00033378       0x32 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
+ *fill*         0x000333aa        0x2 
  .text.ble_evt_handler
-                0x000333a8       0xe4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
+                0x000333ac       0xe4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
  .text.ble_srv_is_notification_enabled
-                0x0003348c        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_srv_common.o
-                0x0003348c                ble_srv_is_notification_enabled
+                0x00033490        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_srv_common.o
+                0x00033490                ble_srv_is_notification_enabled
  .text.sd_softdevice_enable
-                0x00033494        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
- .text.sd_softdevice_disable
                 0x00033498        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+ .text.sd_softdevice_disable
+                0x0003349c        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
  .text.sdh_request_observer_notify
-                0x0003349c       0x30 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+                0x000334a0       0x30 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
  .text.sdh_state_observer_notify
-                0x000334cc       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+                0x000334d0       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
  .text.softdevice_evt_irq_disable
-                0x000334f4       0x2c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+                0x000334f8       0x2c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
  .text.softdevices_evt_irq_enable
-                0x00033520       0x38 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+                0x00033524       0x38 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
  .text.nrf_sdh_enable_request
-                0x00033558       0x7c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
-                0x00033558                nrf_sdh_enable_request
+                0x0003355c       0x7c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+                0x0003355c                nrf_sdh_enable_request
  .text.nrf_sdh_disable_request
-                0x000335d4       0x60 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
-                0x000335d4                nrf_sdh_disable_request
+                0x000335d8       0x60 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+                0x000335d8                nrf_sdh_disable_request
  .text.nrf_sdh_is_enabled
-                0x00033634        0xc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
-                0x00033634                nrf_sdh_is_enabled
+                0x00033638        0xc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+                0x00033638                nrf_sdh_is_enabled
  .text.nrf_sdh_suspend
-                0x00033640       0x1c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
-                0x00033640                nrf_sdh_suspend
+                0x00033644       0x1c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+                0x00033644                nrf_sdh_suspend
  .text.nrf_sdh_resume
-                0x0003365c       0x30 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
-                0x0003365c                nrf_sdh_resume
+                0x00033660       0x30 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+                0x00033660                nrf_sdh_resume
  .text.nrf_sdh_is_suspended
-                0x0003368c       0x1c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
-                0x0003368c                nrf_sdh_is_suspended
+                0x00033690       0x1c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+                0x00033690                nrf_sdh_is_suspended
  .text.nrf_sdh_evts_poll
-                0x000336a8       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
-                0x000336a8                nrf_sdh_evts_poll
+                0x000336ac       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+                0x000336ac                nrf_sdh_evts_poll
  .text.SWI2_EGU2_IRQHandler
-                0x000336d0        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
-                0x000336d0                SWI2_EGU2_IRQHandler
+                0x000336d4        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+                0x000336d4                SWI2_EGU2_IRQHandler
  .text.sd_ble_enable
-                0x000336d4        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
- .text.sd_ble_evt_get
                 0x000336d8        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
+ .text.sd_ble_evt_get
+                0x000336dc        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
  .text.nrf_sdh_ble_evts_poll.part.0
-                0x000336dc       0x54 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
+                0x000336e0       0x54 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
  .text.nrf_sdh_ble_evts_poll
-                0x00033730       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
+                0x00033734       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
  .text.nrf_sdh_ble_enable
-                0x00033740       0x14 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
-                0x00033740                nrf_sdh_ble_enable
+                0x00033744       0x14 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
+                0x00033744                nrf_sdh_ble_enable
  .text.sd_evt_get
-                0x00033754        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
+                0x00033758        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
  .text.nrf_sdh_soc_evts_poll
-                0x00033758       0x40 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
+                0x0003375c       0x40 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
  .text.libc.memcmp
-                0x00033798       0x6e C:/Program Files (x86)/SEGGER/SEGGER Embedded Studio for ARM 5.50d/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
-                0x00033798                memcmp
+                0x0003379c       0x6e C:/Program Files (x86)/SEGGER/SEGGER Embedded Studio for ARM 5.50d/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
+                0x0003379c                memcmp
  .text.libc.memcpy
-                0x00033806       0x52 C:/Program Files (x86)/SEGGER/SEGGER Embedded Studio for ARM 5.50d/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
-                0x00033806                __aeabi_memcpy
-                0x00033806                memcpy
-                0x00033812                __aeabi_memcpy8
-                0x00033812                __aeabi_memcpy4
+                0x0003380a       0x52 C:/Program Files (x86)/SEGGER/SEGGER Embedded Studio for ARM 5.50d/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
+                0x0003380a                __aeabi_memcpy
+                0x0003380a                memcpy
+                0x00033816                __aeabi_memcpy8
+                0x00033816                __aeabi_memcpy4
  .text.libc.memset
-                0x00033858       0x66 C:/Program Files (x86)/SEGGER/SEGGER Embedded Studio for ARM 5.50d/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
-                0x00033858                memset
-                0x000338be                __text_end__ = (__text_start__ + SIZEOF (.text))
-                0x0000d4ee                __text_size__ = SIZEOF (.text)
-                0x000338be                __text_load_end__ = __text_end__
+                0x0003385c       0x66 C:/Program Files (x86)/SEGGER/SEGGER Embedded Studio for ARM 5.50d/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2_asm.o)
+                0x0003385c                memset
+                0x000338c2                __text_end__ = (__text_start__ + SIZEOF (.text))
+                0x0000d4f2                __text_size__ = SIZEOF (.text)
+                0x000338c2                __text_load_end__ = __text_end__
 
 .vfp11_veneer   0x00000000        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
@@ -12545,149 +12545,149 @@ Linker script and memory map
 .iplt           0x00000000        0x0
  .iplt          0x00000000        0x0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/thumb_crt0.o
                 0x00000001                . = ASSERT (((__text_start__ == __text_end__) || ((__text_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .text is too large to fit in FLASH memory segment)
-                0x000338c0                __sdh_ble_observers_load_start__ = ALIGN (__text_end__, 0x4)
+                0x000338c4                __sdh_ble_observers_load_start__ = ALIGN (__text_end__, 0x4)
 
 .sdh_ble_observers
-                0x000338c0       0x10
-                0x000338c0                __sdh_ble_observers_start__ = .
-                0x000338c0                __start_sdh_ble_observers = __sdh_ble_observers_start__
+                0x000338c4       0x10
+                0x000338c4                __sdh_ble_observers_start__ = .
+                0x000338c4                __start_sdh_ble_observers = __sdh_ble_observers_start__
  *(SORT_BY_NAME(.sdh_ble_observers*))
  .sdh_ble_observers0
-                0x000338c0        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o
+                0x000338c4        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o
  .sdh_ble_observers1
-                0x000338c8        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
-                0x000338d0                __sdh_ble_observers_end__ = (__sdh_ble_observers_start__ + SIZEOF (.sdh_ble_observers))
+                0x000338cc        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
+                0x000338d4                __sdh_ble_observers_end__ = (__sdh_ble_observers_start__ + SIZEOF (.sdh_ble_observers))
                 0x00000010                __sdh_ble_observers_size__ = SIZEOF (.sdh_ble_observers)
-                0x000338d0                __stop_sdh_ble_observers = __sdh_ble_observers_end__
-                0x000338d0                __sdh_ble_observers_load_end__ = __sdh_ble_observers_end__
+                0x000338d4                __stop_sdh_ble_observers = __sdh_ble_observers_end__
+                0x000338d4                __sdh_ble_observers_load_end__ = __sdh_ble_observers_end__
                 0x00000001                . = ASSERT (((__sdh_ble_observers_start__ == __sdh_ble_observers_end__) || ((__sdh_ble_observers_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .sdh_ble_observers is too large to fit in FLASH memory segment)
-                0x000338d0                __sdh_soc_observers_load_start__ = ALIGN (__sdh_ble_observers_end__, 0x4)
+                0x000338d4                __sdh_soc_observers_load_start__ = ALIGN (__sdh_ble_observers_end__, 0x4)
 
 .sdh_soc_observers
-                0x000338d0        0x8
-                0x000338d0                __sdh_soc_observers_start__ = .
-                0x000338d0                __start_sdh_soc_observers = __sdh_soc_observers_start__
+                0x000338d4        0x8
+                0x000338d4                __sdh_soc_observers_start__ = .
+                0x000338d4                __start_sdh_soc_observers = __sdh_soc_observers_start__
  *(SORT_BY_NAME(.sdh_soc_observers*))
  .sdh_soc_observers0
-                0x000338d0        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
-                0x000338d8                __sdh_soc_observers_end__ = (__sdh_soc_observers_start__ + SIZEOF (.sdh_soc_observers))
+                0x000338d4        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+                0x000338dc                __sdh_soc_observers_end__ = (__sdh_soc_observers_start__ + SIZEOF (.sdh_soc_observers))
                 0x00000008                __sdh_soc_observers_size__ = SIZEOF (.sdh_soc_observers)
-                0x000338d8                __stop_sdh_soc_observers = __sdh_soc_observers_end__
-                0x000338d8                __sdh_soc_observers_load_end__ = __sdh_soc_observers_end__
+                0x000338dc                __stop_sdh_soc_observers = __sdh_soc_observers_end__
+                0x000338dc                __sdh_soc_observers_load_end__ = __sdh_soc_observers_end__
                 0x00000001                . = ASSERT (((__sdh_soc_observers_start__ == __sdh_soc_observers_end__) || ((__sdh_soc_observers_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .sdh_soc_observers is too large to fit in FLASH memory segment)
-                0x000338d8                __nrf_queue_load_start__ = ALIGN (__sdh_soc_observers_end__, 0x4)
+                0x000338dc                __nrf_queue_load_start__ = ALIGN (__sdh_soc_observers_end__, 0x4)
 
-.nrf_queue      0x000338d8       0x28
-                0x000338d8                __nrf_queue_start__ = .
-                0x000338d8                __start_nrf_queue = __nrf_queue_start__
+.nrf_queue      0x000338dc       0x28
+                0x000338dc                __nrf_queue_start__ = .
+                0x000338dc                __start_nrf_queue = __nrf_queue_start__
  *(.nrf_queue*)
- .nrf_queue     0x000338d8       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
-                0x000338d8                m_tx_evt_queue
-                0x000338ec                m_rx_evt_queue
-                0x00033900                __nrf_queue_end__ = (__nrf_queue_start__ + SIZEOF (.nrf_queue))
+ .nrf_queue     0x000338dc       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                0x000338dc                m_tx_evt_queue
+                0x000338f0                m_rx_evt_queue
+                0x00033904                __nrf_queue_end__ = (__nrf_queue_start__ + SIZEOF (.nrf_queue))
                 0x00000028                __nrf_queue_size__ = SIZEOF (.nrf_queue)
-                0x00033900                __stop_nrf_queue = __nrf_queue_end__
-                0x00033900                __nrf_queue_load_end__ = __nrf_queue_end__
+                0x00033904                __stop_nrf_queue = __nrf_queue_end__
+                0x00033904                __nrf_queue_load_end__ = __nrf_queue_end__
                 0x00000001                . = ASSERT (((__nrf_queue_start__ == __nrf_queue_end__) || ((__nrf_queue_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .nrf_queue is too large to fit in FLASH memory segment)
-                0x00033900                __log_const_data_load_start__ = ALIGN (__nrf_queue_end__, 0x4)
+                0x00033904                __log_const_data_load_start__ = ALIGN (__nrf_queue_end__, 0x4)
 
 .log_const_data
-                0x00033900        0x0
-                0x00033900                __log_const_data_start__ = .
-                0x00033900                __start_log_const_data = __log_const_data_start__
+                0x00033904        0x0
+                0x00033904                __log_const_data_start__ = .
+                0x00033904                __start_log_const_data = __log_const_data_start__
  *(SORT_BY_NAME(.log_const_data*))
-                0x00033900                __log_const_data_end__ = (__log_const_data_start__ + SIZEOF (.log_const_data))
+                0x00033904                __log_const_data_end__ = (__log_const_data_start__ + SIZEOF (.log_const_data))
                 0x00000000                __log_const_data_size__ = SIZEOF (.log_const_data)
-                0x00033900                __stop_log_const_data = __log_const_data_end__
-                0x00033900                __log_const_data_load_end__ = __log_const_data_end__
+                0x00033904                __stop_log_const_data = __log_const_data_end__
+                0x00033904                __log_const_data_load_end__ = __log_const_data_end__
                 0x00000001                . = ASSERT (((__log_const_data_start__ == __log_const_data_end__) || ((__log_const_data_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_const_data is too large to fit in FLASH memory segment)
-                0x00033900                __nrf_balloc_load_start__ = ALIGN (__log_const_data_end__, 0x4)
+                0x00033904                __nrf_balloc_load_start__ = ALIGN (__log_const_data_end__, 0x4)
 
-.nrf_balloc     0x00033900       0x14
-                0x00033900                __nrf_balloc_start__ = .
-                0x00033900                __start_nrf_balloc = __nrf_balloc_start__
+.nrf_balloc     0x00033904       0x14
+                0x00033904                __nrf_balloc_start__ = .
+                0x00033904                __start_nrf_balloc = __nrf_balloc_start__
  *(.nrf_balloc*)
- .nrf_balloc    0x00033900       0x14 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_l2cap_sdu_pool.o
-                0x00033900                m_pool
-                0x00033914                __nrf_balloc_end__ = (__nrf_balloc_start__ + SIZEOF (.nrf_balloc))
+ .nrf_balloc    0x00033904       0x14 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_l2cap_sdu_pool.o
+                0x00033904                m_pool
+                0x00033918                __nrf_balloc_end__ = (__nrf_balloc_start__ + SIZEOF (.nrf_balloc))
                 0x00000014                __nrf_balloc_size__ = SIZEOF (.nrf_balloc)
-                0x00033914                __stop_nrf_balloc = __nrf_balloc_end__
-                0x00033914                __nrf_balloc_load_end__ = __nrf_balloc_end__
+                0x00033918                __stop_nrf_balloc = __nrf_balloc_end__
+                0x00033918                __nrf_balloc_load_end__ = __nrf_balloc_end__
                 0x00000001                . = ASSERT (((__nrf_balloc_start__ == __nrf_balloc_end__) || ((__nrf_balloc_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .nrf_balloc is too large to fit in FLASH memory segment)
-                0x00033914                __sdh_req_observers_load_start__ = ALIGN (__nrf_balloc_end__, 0x4)
+                0x00033918                __sdh_req_observers_load_start__ = ALIGN (__nrf_balloc_end__, 0x4)
 
 .sdh_req_observers
-                0x00033914        0x0
-                0x00033914                __sdh_req_observers_start__ = .
-                0x00033914                __start_sdh_req_observers = __sdh_req_observers_start__
+                0x00033918        0x0
+                0x00033918                __sdh_req_observers_start__ = .
+                0x00033918                __start_sdh_req_observers = __sdh_req_observers_start__
  *(SORT_BY_NAME(.sdh_req_observers*))
-                0x00033914                __sdh_req_observers_end__ = (__sdh_req_observers_start__ + SIZEOF (.sdh_req_observers))
+                0x00033918                __sdh_req_observers_end__ = (__sdh_req_observers_start__ + SIZEOF (.sdh_req_observers))
                 0x00000000                __sdh_req_observers_size__ = SIZEOF (.sdh_req_observers)
-                0x00033914                __stop_sdh_req_observers = __sdh_req_observers_end__
-                0x00033914                __sdh_req_observers_load_end__ = __sdh_req_observers_end__
+                0x00033918                __stop_sdh_req_observers = __sdh_req_observers_end__
+                0x00033918                __sdh_req_observers_load_end__ = __sdh_req_observers_end__
                 0x00000001                . = ASSERT (((__sdh_req_observers_start__ == __sdh_req_observers_end__) || ((__sdh_req_observers_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .sdh_req_observers is too large to fit in FLASH memory segment)
-                0x00033914                __sdh_state_observers_load_start__ = ALIGN (__sdh_req_observers_end__, 0x4)
+                0x00033918                __sdh_state_observers_load_start__ = ALIGN (__sdh_req_observers_end__, 0x4)
 
 .sdh_state_observers
-                0x00033914       0x10
-                0x00033914                __sdh_state_observers_start__ = .
-                0x00033914                __start_sdh_state_observers = __sdh_state_observers_start__
+                0x00033918       0x10
+                0x00033918                __sdh_state_observers_start__ = .
+                0x00033918                __start_sdh_state_observers = __sdh_state_observers_start__
  *(SORT_BY_NAME(.sdh_state_observers*))
  .sdh_state_observers0
-                0x00033914        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder.o
+                0x00033918        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder.o
  .sdh_state_observers0
-                0x0003391c        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
-                0x00033924                __sdh_state_observers_end__ = (__sdh_state_observers_start__ + SIZEOF (.sdh_state_observers))
+                0x00033920        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+                0x00033928                __sdh_state_observers_end__ = (__sdh_state_observers_start__ + SIZEOF (.sdh_state_observers))
                 0x00000010                __sdh_state_observers_size__ = SIZEOF (.sdh_state_observers)
-                0x00033924                __stop_sdh_state_observers = __sdh_state_observers_end__
-                0x00033924                __sdh_state_observers_load_end__ = __sdh_state_observers_end__
+                0x00033928                __stop_sdh_state_observers = __sdh_state_observers_end__
+                0x00033928                __sdh_state_observers_load_end__ = __sdh_state_observers_end__
                 0x00000001                . = ASSERT (((__sdh_state_observers_start__ == __sdh_state_observers_end__) || ((__sdh_state_observers_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .sdh_state_observers is too large to fit in FLASH memory segment)
-                0x00033924                __sdh_stack_observers_load_start__ = ALIGN (__sdh_state_observers_end__, 0x4)
+                0x00033928                __sdh_stack_observers_load_start__ = ALIGN (__sdh_state_observers_end__, 0x4)
 
 .sdh_stack_observers
-                0x00033924       0x10
-                0x00033924                __sdh_stack_observers_start__ = .
-                0x00033924                __start_sdh_stack_observers = __sdh_stack_observers_start__
+                0x00033928       0x10
+                0x00033928                __sdh_stack_observers_start__ = .
+                0x00033928                __start_sdh_stack_observers = __sdh_stack_observers_start__
  *(SORT_BY_NAME(.sdh_stack_observers*))
  .sdh_stack_observers0
-                0x00033924        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
+                0x00033928        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
  .sdh_stack_observers0
-                0x0003392c        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
-                0x00033934                __sdh_stack_observers_end__ = (__sdh_stack_observers_start__ + SIZEOF (.sdh_stack_observers))
+                0x00033930        0x8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
+                0x00033938                __sdh_stack_observers_end__ = (__sdh_stack_observers_start__ + SIZEOF (.sdh_stack_observers))
                 0x00000010                __sdh_stack_observers_size__ = SIZEOF (.sdh_stack_observers)
-                0x00033934                __stop_sdh_stack_observers = __sdh_stack_observers_end__
-                0x00033934                __sdh_stack_observers_load_end__ = __sdh_stack_observers_end__
+                0x00033938                __stop_sdh_stack_observers = __sdh_stack_observers_end__
+                0x00033938                __sdh_stack_observers_load_end__ = __sdh_stack_observers_end__
                 0x00000001                . = ASSERT (((__sdh_stack_observers_start__ == __sdh_stack_observers_end__) || ((__sdh_stack_observers_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .sdh_stack_observers is too large to fit in FLASH memory segment)
-                0x00033934                __log_backends_load_start__ = ALIGN (__sdh_stack_observers_end__, 0x4)
+                0x00033938                __log_backends_load_start__ = ALIGN (__sdh_stack_observers_end__, 0x4)
 
-.log_backends   0x00033934        0x0
-                0x00033934                __log_backends_start__ = .
-                0x00033934                __start_log_backends = __log_backends_start__
+.log_backends   0x00033938        0x0
+                0x00033938                __log_backends_start__ = .
+                0x00033938                __start_log_backends = __log_backends_start__
  *(SORT_BY_NAME(.log_backends*))
-                0x00033934                __log_backends_end__ = (__log_backends_start__ + SIZEOF (.log_backends))
+                0x00033938                __log_backends_end__ = (__log_backends_start__ + SIZEOF (.log_backends))
                 0x00000000                __log_backends_size__ = SIZEOF (.log_backends)
-                0x00033934                __stop_log_backends = __log_backends_end__
-                0x00033934                __log_backends_load_end__ = __log_backends_end__
+                0x00033938                __stop_log_backends = __log_backends_end__
+                0x00033938                __log_backends_load_end__ = __log_backends_end__
                 0x00000001                . = ASSERT (((__log_backends_start__ == __log_backends_end__) || ((__log_backends_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_backends is too large to fit in FLASH memory segment)
-                0x00033934                __nrf_sections_load_start__ = ALIGN (__log_backends_end__, 0x4)
+                0x00033938                __nrf_sections_load_start__ = ALIGN (__log_backends_end__, 0x4)
 
-.nrf_sections   0x00033934        0x0
-                0x00033934                __nrf_sections_start__ = .
-                0x00033934                __start_nrf_sections = __nrf_sections_start__
+.nrf_sections   0x00033938        0x0
+                0x00033938                __nrf_sections_start__ = .
+                0x00033938                __start_nrf_sections = __nrf_sections_start__
  *(.nrf_sections .nrf_sections.*)
-                0x00033934                __nrf_sections_end__ = (__nrf_sections_start__ + SIZEOF (.nrf_sections))
+                0x00033938                __nrf_sections_end__ = (__nrf_sections_start__ + SIZEOF (.nrf_sections))
                 0x00000000                __nrf_sections_size__ = SIZEOF (.nrf_sections)
-                0x00033934                __nrf_sections_load_end__ = __nrf_sections_end__
+                0x00033938                __nrf_sections_load_end__ = __nrf_sections_end__
                 0x00000001                . = ASSERT (((__nrf_sections_start__ == __nrf_sections_end__) || ((__nrf_sections_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .nrf_sections is too large to fit in FLASH memory segment)
-                0x00033934                __log_dynamic_data_load_start__ = ALIGN (__nrf_sections_end__, 0x4)
+                0x00033938                __log_dynamic_data_load_start__ = ALIGN (__nrf_sections_end__, 0x4)
 
 .log_dynamic_data
-                0x2000a5f8        0x0 load address 0x00033934
+                0x2000a5f8        0x0 load address 0x00033938
                 0x2000a5f8                __log_dynamic_data_start__ = .
  *(SORT_BY_NAME(.log_dynamic_data*))
                 0x2000a5f8                __log_dynamic_data_end__ = (__log_dynamic_data_start__ + SIZEOF (.log_dynamic_data))
                 0x00000000                __log_dynamic_data_size__ = SIZEOF (.log_dynamic_data)
-                0x00033934                __log_dynamic_data_load_end__ = (__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data))
+                0x00033938                __log_dynamic_data_load_end__ = (__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data))
                 0x00000001                . = ASSERT (((__log_dynamic_data_load_start__ == __log_dynamic_data_load_end__) || ((__log_dynamic_data_load_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_dynamic_data is too large to fit in FLASH memory segment)
 
 .log_dynamic_data_run
@@ -12699,15 +12699,15 @@ Linker script and memory map
                 0x2000a5f8                __stop_log_dynamic_data = __log_dynamic_data_run_end__
                 0x2000a5f8                __log_dynamic_data_run_load_end__ = __log_dynamic_data_run_end__
                 0x00000001                . = ASSERT (((__log_dynamic_data_run_start__ == __log_dynamic_data_run_end__) || ((__log_dynamic_data_run_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .log_dynamic_data_run is too large to fit in RAM1 memory segment)
-                0x00033934                __log_filter_data_load_start__ = ALIGN ((__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data)), 0x4)
+                0x00033938                __log_filter_data_load_start__ = ALIGN ((__log_dynamic_data_load_start__ + SIZEOF (.log_dynamic_data)), 0x4)
 
 .log_filter_data
-                0x2000a5f8        0x0 load address 0x00033934
+                0x2000a5f8        0x0 load address 0x00033938
                 0x2000a5f8                __log_filter_data_start__ = .
  *(SORT_BY_NAME(.log_filter_data*))
                 0x2000a5f8                __log_filter_data_end__ = (__log_filter_data_start__ + SIZEOF (.log_filter_data))
                 0x00000000                __log_filter_data_size__ = SIZEOF (.log_filter_data)
-                0x00033934                __log_filter_data_load_end__ = (__log_filter_data_load_start__ + SIZEOF (.log_filter_data))
+                0x00033938                __log_filter_data_load_end__ = (__log_filter_data_load_start__ + SIZEOF (.log_filter_data))
                 0x00000001                . = ASSERT (((__log_filter_data_load_start__ == __log_filter_data_load_end__) || ((__log_filter_data_load_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .log_filter_data is too large to fit in FLASH memory segment)
 
 .log_filter_data_run
@@ -12730,39 +12730,39 @@ Linker script and memory map
                 0x00000000                __nrf_sections_run_end_size__ = SIZEOF (.nrf_sections_run_end)
                 0x2000a5f8                __nrf_sections_run_end_load_end__ = __nrf_sections_run_end_end__
                 0x00000001                . = ASSERT (((__nrf_sections_run_end_start__ == __nrf_sections_run_end_end__) || ((__nrf_sections_run_end_end__ - __RAM1_segment_start__) <= __RAM1_segment_size__)), error: .nrf_sections_run_end is too large to fit in RAM1 memory segment)
-                0x00033934                __dtors_load_start__ = ALIGN ((__log_filter_data_load_start__ + SIZEOF (.log_filter_data)), 0x4)
+                0x00033938                __dtors_load_start__ = ALIGN ((__log_filter_data_load_start__ + SIZEOF (.log_filter_data)), 0x4)
 
-.dtors          0x00033934        0x0
-                0x00033934                __dtors_start__ = .
+.dtors          0x00033938        0x0
+                0x00033938                __dtors_start__ = .
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.fini_array)
  *(SORT_BY_NAME(.fini_array.*))
-                0x00033934                __dtors_end__ = (__dtors_start__ + SIZEOF (.dtors))
+                0x00033938                __dtors_end__ = (__dtors_start__ + SIZEOF (.dtors))
                 0x00000000                __dtors_size__ = SIZEOF (.dtors)
-                0x00033934                __dtors_load_end__ = __dtors_end__
+                0x00033938                __dtors_load_end__ = __dtors_end__
                 0x00000001                . = ASSERT (((__dtors_start__ == __dtors_end__) || ((__dtors_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .dtors is too large to fit in FLASH memory segment)
-                0x00033934                __ctors_load_start__ = ALIGN (__dtors_end__, 0x4)
+                0x00033938                __ctors_load_start__ = ALIGN (__dtors_end__, 0x4)
 
-.ctors          0x00033934        0x0
-                0x00033934                __ctors_start__ = .
+.ctors          0x00033938        0x0
+                0x00033938                __ctors_start__ = .
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
  *(.init_array)
  *(SORT_BY_NAME(.init_array.*))
-                0x00033934                __ctors_end__ = (__ctors_start__ + SIZEOF (.ctors))
+                0x00033938                __ctors_end__ = (__ctors_start__ + SIZEOF (.ctors))
                 0x00000000                __ctors_size__ = SIZEOF (.ctors)
-                0x00033934                __ctors_load_end__ = __ctors_end__
+                0x00033938                __ctors_load_end__ = __ctors_end__
                 0x00000001                . = ASSERT (((__ctors_start__ == __ctors_end__) || ((__ctors_end__ - __FLASH_segment_start__) <= __FLASH_segment_size__)), error: .ctors is too large to fit in FLASH memory segment)
-                0x00033934                __rodata_load_start__ = ALIGN (__ctors_end__, 0x4)
+                0x00033938                __rodata_load_start__ = ALIGN (__ctors_end__, 0x4)
 
-.rodata         0x00033934      0x4cc
-                0x00033934                __rodata_start__ = .
+.rodata         0x00033938      0x4c8
+                0x00033938                __rodata_start__ = .
  *(.rodata .rodata.* .gnu.linkonce.r.*)
- .rodata        0x00033934        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_timer2.o
+ .rodata        0x00033938        0x4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_timer2.o
  .rodata.m_app_timer_sortlist
-                0x00033938        0xc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_timer2.o
- *fill*         0x00033944        0xc 
+                0x0003393c        0xc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_timer2.o
+ *fill*         0x00033948        0x8 
  .rodata.delay_machine_code.0
                 0x00033950        0x6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/drv_rtc.o
  .rodata.CSWTCH.15
@@ -12807,7 +12807,7 @@ Linker script and memory map
  .rodata.sdh_soc_observers
                 0x00033df4        0xc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
                 0x00033e00                __rodata_end__ = (__rodata_start__ + SIZEOF (.rodata))
-                0x000004cc                __rodata_size__ = SIZEOF (.rodata)
+                0x000004c8                __rodata_size__ = SIZEOF (.rodata)
                 0x00033e00                __rodata_load_end__ = __rodata_end__
 
 .rel.dyn        0x00033e00        0x0
@@ -13537,7 +13537,7 @@ LOAD linker stubs
  .comment       0x00000025       0x26 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
  .comment       0x00000025       0x26 C:/Program Files (x86)/SEGGER/SEGGER Embedded Studio for ARM 5.50d/lib/libc_v7em_fpv4_sp_d16_hard_t_le_eabi.a(libc2.o)
 
-.debug_line     0x00000000    0x3de6d
+.debug_line     0x00000000    0x3de49
  .debug_line    0x00000000      0x225 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/thumb_crt0.o
  .debug_line    0x00000225      0x3b9 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_error.o
  .debug_line    0x000005de      0x79f Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_scheduler.o
@@ -13547,72 +13547,72 @@ LOAD linker stubs
  .debug_line    0x0000257f     0x11a9 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/drv_rtc.o
  .debug_line    0x00003728      0x7a1 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_atfifo.o
  .debug_line    0x00003ec9      0x700 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_balloc.o
- .debug_line    0x000045c9      0xc9f Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_queue.o
- .debug_line    0x00005268      0x450 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_section_iter.o
- .debug_line    0x000056b8      0x5f2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sortlist.o
- .debug_line    0x00005caa       0x91 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ses_startup_nrf52.o
- .debug_line    0x00005d3b       0xb3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ses_startup_nrf_common.o
- .debug_line    0x00005dee      0x66d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/system_nrf52.o
- .debug_line    0x0000645b     0x1028 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/boards.o
- .debug_line    0x00007483     0x1733 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn.o
- .debug_line    0x00008bb6      0x401 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_init.o
- .debug_line    0x00008fb7      0xa0d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_event_enc.o
- .debug_line    0x000099c4      0x753 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_evt_conn.o
- .debug_line    0x0000a117     0x3c27 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_conn.o
- .debug_line    0x0000dd3e     0x1f49 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_evt_conn.o
- .debug_line    0x0000fc87     0x46b5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_struct_serialization.o
- .debug_line    0x0001433c      0x7a8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatt_struct_serialization.o
- .debug_line    0x00014ae4     0x10ea Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_conn.o
- .debug_line    0x00015bce     0x16da Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_evt_conn.o
- .debug_line    0x000172a8     0x2461 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_struct_serialization.o
- .debug_line    0x00019709     0x1ea5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_conn.o
- .debug_line    0x0001b5ae      0xd85 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_evt_conn.o
- .debug_line    0x0001c333     0x1f02 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_struct_serialization.o
- .debug_line    0x0001e235      0xe7a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_conn.o
- .debug_line    0x0001f0af     0x1047 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_evt_conn.o
- .debug_line    0x000200f6      0xabb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_struct_serialization.o
- .debug_line    0x00020bb1     0x117c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_serialization.o
- .debug_line    0x00021d2d     0x12eb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_struct_serialization.o
- .debug_line    0x00023018      0x2e2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/cond_field_serialization.o
- .debug_line    0x000232fa      0x7d9 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_gap_sec_keys.o
- .debug_line    0x00023ad3      0x574 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_l2cap_sdu_pool.o
- .debug_line    0x00024047      0x576 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_user_mem.o
- .debug_line    0x000245bd      0x591 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw.o
- .debug_line    0x00024b4e      0xee5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble.o
- .debug_line    0x00025a33     0x2825 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gap.o
- .debug_line    0x00028258      0xe72 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gattc.o
- .debug_line    0x000290ca     0x1319 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gatts.o
- .debug_line    0x0002a3e3      0x8bc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_l2cap.o
- .debug_line    0x0002ac9f      0x60e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_nrf_soc.o
- .debug_line    0x0002b2ad      0x924 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/dtm_uart.o
- .debug_line    0x0002bbd1      0x7a1 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_conn.o
- .debug_line    0x0002c372      0x602 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_struct_serialization.o
- .debug_line    0x0002c974      0x8c5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_cmd_decoder.o
- .debug_line    0x0002d239      0x79e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_dtm_cmd_decoder.o
- .debug_line    0x0002d9d7      0x86a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_error_handling.o
- .debug_line    0x0002e241      0x8e4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_event_encoder.o
- .debug_line    0x0002eb25      0x81e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o
- .debug_line    0x0002f343      0x6ab Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_pkt_decoder.o
- .debug_line    0x0002f9ee      0x95a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder.o
- .debug_line    0x00030348      0xb1a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_hal_transport.o
- .debug_line    0x00030e62     0x1911 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
- .debug_line    0x00032773     0x1036 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
- .debug_line    0x000337a9      0xe58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
- .debug_line    0x00034601      0x710 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
- .debug_line    0x00034d11      0xce3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
- .debug_line    0x000359f4      0x78a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
- .debug_line    0x0003617e     0x1841 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
- .debug_line    0x000379bf     0x17ca Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
- .debug_line    0x00039189      0xd22 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
- .debug_line    0x00039eab     0x1051 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
- .debug_line    0x0003aefc      0x339 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
- .debug_line    0x0003b235      0xc02 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
- .debug_line    0x0003be37      0x702 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_srv_common.o
- .debug_line    0x0003c539      0xacb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
- .debug_line    0x0003d004      0x870 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
- .debug_line    0x0003d874      0x5f9 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
+ .debug_line    0x000045c9      0xc7b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_queue.o
+ .debug_line    0x00005244      0x450 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_section_iter.o
+ .debug_line    0x00005694      0x5f2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sortlist.o
+ .debug_line    0x00005c86       0x91 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ses_startup_nrf52.o
+ .debug_line    0x00005d17       0xb3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ses_startup_nrf_common.o
+ .debug_line    0x00005dca      0x66d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/system_nrf52.o
+ .debug_line    0x00006437     0x1028 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/boards.o
+ .debug_line    0x0000745f     0x1733 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn.o
+ .debug_line    0x00008b92      0x401 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_init.o
+ .debug_line    0x00008f93      0xa0d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_event_enc.o
+ .debug_line    0x000099a0      0x753 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_evt_conn.o
+ .debug_line    0x0000a0f3     0x3c27 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_conn.o
+ .debug_line    0x0000dd1a     0x1f49 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_evt_conn.o
+ .debug_line    0x0000fc63     0x46b5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_struct_serialization.o
+ .debug_line    0x00014318      0x7a8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatt_struct_serialization.o
+ .debug_line    0x00014ac0     0x10ea Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_conn.o
+ .debug_line    0x00015baa     0x16da Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_evt_conn.o
+ .debug_line    0x00017284     0x2461 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_struct_serialization.o
+ .debug_line    0x000196e5     0x1ea5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_conn.o
+ .debug_line    0x0001b58a      0xd85 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_evt_conn.o
+ .debug_line    0x0001c30f     0x1f02 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_struct_serialization.o
+ .debug_line    0x0001e211      0xe7a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_conn.o
+ .debug_line    0x0001f08b     0x1047 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_evt_conn.o
+ .debug_line    0x000200d2      0xabb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_struct_serialization.o
+ .debug_line    0x00020b8d     0x117c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_serialization.o
+ .debug_line    0x00021d09     0x12eb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_struct_serialization.o
+ .debug_line    0x00022ff4      0x2e2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/cond_field_serialization.o
+ .debug_line    0x000232d6      0x7d9 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_gap_sec_keys.o
+ .debug_line    0x00023aaf      0x574 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_l2cap_sdu_pool.o
+ .debug_line    0x00024023      0x576 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_user_mem.o
+ .debug_line    0x00024599      0x591 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw.o
+ .debug_line    0x00024b2a      0xee5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble.o
+ .debug_line    0x00025a0f     0x2825 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gap.o
+ .debug_line    0x00028234      0xe72 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gattc.o
+ .debug_line    0x000290a6     0x1319 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gatts.o
+ .debug_line    0x0002a3bf      0x8bc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_l2cap.o
+ .debug_line    0x0002ac7b      0x60e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_nrf_soc.o
+ .debug_line    0x0002b289      0x924 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/dtm_uart.o
+ .debug_line    0x0002bbad      0x7a1 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_conn.o
+ .debug_line    0x0002c34e      0x602 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_struct_serialization.o
+ .debug_line    0x0002c950      0x8c5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_cmd_decoder.o
+ .debug_line    0x0002d215      0x79e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_dtm_cmd_decoder.o
+ .debug_line    0x0002d9b3      0x86a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_error_handling.o
+ .debug_line    0x0002e21d      0x8e4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_event_encoder.o
+ .debug_line    0x0002eb01      0x81e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o
+ .debug_line    0x0002f31f      0x6ab Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_pkt_decoder.o
+ .debug_line    0x0002f9ca      0x95a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder.o
+ .debug_line    0x00030324      0xb1a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_hal_transport.o
+ .debug_line    0x00030e3e     0x1911 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+ .debug_line    0x0003274f     0x1036 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+ .debug_line    0x00033785      0xe58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+ .debug_line    0x000345dd      0x710 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
+ .debug_line    0x00034ced      0xce3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
+ .debug_line    0x000359d0      0x78a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
+ .debug_line    0x0003615a     0x1841 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+ .debug_line    0x0003799b     0x17ca Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
+ .debug_line    0x00039165      0xd22 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
+ .debug_line    0x00039e87     0x1051 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+ .debug_line    0x0003aed8      0x339 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
+ .debug_line    0x0003b211      0xc02 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
+ .debug_line    0x0003be13      0x702 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_srv_common.o
+ .debug_line    0x0003c515      0xacb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+ .debug_line    0x0003cfe0      0x870 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
+ .debug_line    0x0003d850      0x5f9 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
 
-.debug_info     0x00000000    0x63b8d
+.debug_info     0x00000000    0x63b34
  .debug_info    0x00000000       0x22 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/thumb_crt0.o
  .debug_info    0x00000022      0x2a4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_error.o
  .debug_info    0x000002c6      0x655 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_scheduler.o
@@ -13622,72 +13622,72 @@ LOAD linker stubs
  .debug_info    0x000028b5     0x1fb6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/drv_rtc.o
  .debug_info    0x0000486b      0x8a6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_atfifo.o
  .debug_info    0x00005111      0x3c8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_balloc.o
- .debug_info    0x000054d9      0xedf Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_queue.o
- .debug_info    0x000063b8      0x192 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_section_iter.o
- .debug_info    0x0000654a      0x305 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sortlist.o
- .debug_info    0x0000684f       0x23 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ses_startup_nrf52.o
- .debug_info    0x00006872       0x23 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ses_startup_nrf_common.o
- .debug_info    0x00006895     0x1383 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/system_nrf52.o
- .debug_info    0x00007c18     0x1609 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/boards.o
- .debug_info    0x00009221     0x2059 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn.o
- .debug_info    0x0000b27a      0x34c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_init.o
- .debug_info    0x0000b5c6     0x2079 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_event_enc.o
- .debug_info    0x0000d63f     0x1cc2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_evt_conn.o
- .debug_info    0x0000f301     0x4e3a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_conn.o
- .debug_info    0x0001413b     0x3c41 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_evt_conn.o
- .debug_info    0x00017d7c     0x8ee7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_struct_serialization.o
- .debug_info    0x00020c63      0x69b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatt_struct_serialization.o
- .debug_info    0x000212fe     0x12b9 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_conn.o
- .debug_info    0x000225b7     0x2eff Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_evt_conn.o
- .debug_info    0x000254b6     0x3eed Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_struct_serialization.o
- .debug_info    0x000293a3     0x25ed Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_conn.o
- .debug_info    0x0002b990     0x2593 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_evt_conn.o
- .debug_info    0x0002df23     0x399d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_struct_serialization.o
- .debug_info    0x000318c0      0xd9c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_conn.o
- .debug_info    0x0003265c     0x27e0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_evt_conn.o
- .debug_info    0x00034e3c      0xefb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_struct_serialization.o
- .debug_info    0x00035d37     0x14e7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_serialization.o
- .debug_info    0x0003721e     0x1a08 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_struct_serialization.o
- .debug_info    0x00038c26      0x2d7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/cond_field_serialization.o
- .debug_info    0x00038efd      0x8b2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_gap_sec_keys.o
- .debug_info    0x000397af      0x2fb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_l2cap_sdu_pool.o
- .debug_info    0x00039aaa      0x285 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_user_mem.o
- .debug_info    0x00039d2f      0x5db Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw.o
- .debug_info    0x0003a30a     0x183c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble.o
- .debug_info    0x0003bb46     0x4581 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gap.o
- .debug_info    0x000400c7     0x12ca Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gattc.o
- .debug_info    0x00041391     0x1d74 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gatts.o
- .debug_info    0x00043105      0x95e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_l2cap.o
- .debug_info    0x00043a63      0x5a0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_nrf_soc.o
- .debug_info    0x00044003     0x119e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/dtm_uart.o
- .debug_info    0x000451a1      0x724 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_conn.o
- .debug_info    0x000458c5      0x4d9 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_struct_serialization.o
- .debug_info    0x00045d9e      0x29f Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_cmd_decoder.o
- .debug_info    0x0004603d      0x38c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_dtm_cmd_decoder.o
- .debug_info    0x000463c9      0x3fb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_error_handling.o
- .debug_info    0x000467c4     0x1c5e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_event_encoder.o
- .debug_info    0x00048422     0x1de3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o
- .debug_info    0x0004a205      0x24f Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_pkt_decoder.o
- .debug_info    0x0004a454      0x7d4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder.o
- .debug_info    0x0004ac28      0x998 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_hal_transport.o
- .debug_info    0x0004b5c0     0x2583 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
- .debug_info    0x0004db43     0x1788 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
- .debug_info    0x0004f2cb     0x1583 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
- .debug_info    0x0005084e     0x1193 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
- .debug_info    0x000519e1     0x1370 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
- .debug_info    0x00052d51      0x754 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
- .debug_info    0x000534a5     0x30f6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
- .debug_info    0x0005659b     0x32d3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
- .debug_info    0x0005986e      0xc27 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
- .debug_info    0x0005a495     0x1b51 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
- .debug_info    0x0005bfe6      0x956 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
- .debug_info    0x0005c93c     0x29bd Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
- .debug_info    0x0005f2f9      0xc6c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_srv_common.o
- .debug_info    0x0005ff65     0x11c1 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
- .debug_info    0x00061126     0x254c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
- .debug_info    0x00063672      0x51b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
+ .debug_info    0x000054d9      0xe85 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_queue.o
+ .debug_info    0x0000635e      0x192 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_section_iter.o
+ .debug_info    0x000064f0      0x305 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sortlist.o
+ .debug_info    0x000067f5       0x23 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ses_startup_nrf52.o
+ .debug_info    0x00006818       0x23 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ses_startup_nrf_common.o
+ .debug_info    0x0000683b     0x1383 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/system_nrf52.o
+ .debug_info    0x00007bbe     0x1609 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/boards.o
+ .debug_info    0x000091c7     0x2059 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn.o
+ .debug_info    0x0000b220      0x34c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_init.o
+ .debug_info    0x0000b56c     0x2079 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_event_enc.o
+ .debug_info    0x0000d5e5     0x1cc2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_evt_conn.o
+ .debug_info    0x0000f2a7     0x4e3a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_conn.o
+ .debug_info    0x000140e1     0x3c41 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_evt_conn.o
+ .debug_info    0x00017d22     0x8ee7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_struct_serialization.o
+ .debug_info    0x00020c09      0x69b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatt_struct_serialization.o
+ .debug_info    0x000212a4     0x12b9 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_conn.o
+ .debug_info    0x0002255d     0x2eff Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_evt_conn.o
+ .debug_info    0x0002545c     0x3eed Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_struct_serialization.o
+ .debug_info    0x00029349     0x25ed Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_conn.o
+ .debug_info    0x0002b936     0x2593 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_evt_conn.o
+ .debug_info    0x0002dec9     0x399d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_struct_serialization.o
+ .debug_info    0x00031866      0xd9c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_conn.o
+ .debug_info    0x00032602     0x27e0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_evt_conn.o
+ .debug_info    0x00034de2      0xefb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_struct_serialization.o
+ .debug_info    0x00035cdd     0x14e7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_serialization.o
+ .debug_info    0x000371c4     0x1a08 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_struct_serialization.o
+ .debug_info    0x00038bcc      0x2d7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/cond_field_serialization.o
+ .debug_info    0x00038ea3      0x8b2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_gap_sec_keys.o
+ .debug_info    0x00039755      0x2fb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_l2cap_sdu_pool.o
+ .debug_info    0x00039a50      0x285 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_user_mem.o
+ .debug_info    0x00039cd5      0x5db Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw.o
+ .debug_info    0x0003a2b0     0x183c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble.o
+ .debug_info    0x0003baec     0x4581 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gap.o
+ .debug_info    0x0004006d     0x12ca Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gattc.o
+ .debug_info    0x00041337     0x1d74 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gatts.o
+ .debug_info    0x000430ab      0x95e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_l2cap.o
+ .debug_info    0x00043a09      0x5a0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_nrf_soc.o
+ .debug_info    0x00043fa9     0x119e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/dtm_uart.o
+ .debug_info    0x00045147      0x724 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_conn.o
+ .debug_info    0x0004586b      0x4d9 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_struct_serialization.o
+ .debug_info    0x00045d44      0x29f Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_cmd_decoder.o
+ .debug_info    0x00045fe3      0x38c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_dtm_cmd_decoder.o
+ .debug_info    0x0004636f      0x3fb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_error_handling.o
+ .debug_info    0x0004676a     0x1c5e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_event_encoder.o
+ .debug_info    0x000483c8     0x1de3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o
+ .debug_info    0x0004a1ab      0x24f Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_pkt_decoder.o
+ .debug_info    0x0004a3fa      0x7d4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder.o
+ .debug_info    0x0004abce      0x998 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_hal_transport.o
+ .debug_info    0x0004b566     0x2584 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+ .debug_info    0x0004daea     0x1788 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+ .debug_info    0x0004f272     0x1583 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+ .debug_info    0x000507f5     0x1193 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
+ .debug_info    0x00051988     0x1370 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
+ .debug_info    0x00052cf8      0x754 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
+ .debug_info    0x0005344c     0x30f6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+ .debug_info    0x00056542     0x32d3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
+ .debug_info    0x00059815      0xc27 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
+ .debug_info    0x0005a43c     0x1b51 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+ .debug_info    0x0005bf8d      0x956 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
+ .debug_info    0x0005c8e3     0x29bd Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
+ .debug_info    0x0005f2a0      0xc6c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_srv_common.o
+ .debug_info    0x0005ff0c     0x11c1 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+ .debug_info    0x000610cd     0x254c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
+ .debug_info    0x00063619      0x51b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
 
-.debug_abbrev   0x00000000     0xb85c
+.debug_abbrev   0x00000000     0xb83a
  .debug_abbrev  0x00000000       0x12 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/thumb_crt0.o
  .debug_abbrev  0x00000012      0x13e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_error.o
  .debug_abbrev  0x00000150      0x31c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_scheduler.o
@@ -13697,70 +13697,70 @@ LOAD linker stubs
  .debug_abbrev  0x00000ca7      0x4c2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/drv_rtc.o
  .debug_abbrev  0x00001169      0x219 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_atfifo.o
  .debug_abbrev  0x00001382      0x206 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_balloc.o
- .debug_abbrev  0x00001588      0x373 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_queue.o
- .debug_abbrev  0x000018fb       0xbd Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_section_iter.o
- .debug_abbrev  0x000019b8      0x148 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sortlist.o
- .debug_abbrev  0x00001b00       0x14 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ses_startup_nrf52.o
- .debug_abbrev  0x00001b14       0x14 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ses_startup_nrf_common.o
- .debug_abbrev  0x00001b28      0x270 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/system_nrf52.o
- .debug_abbrev  0x00001d98      0x3b1 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/boards.o
- .debug_abbrev  0x00002149      0x32b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn.o
- .debug_abbrev  0x00002474      0x119 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_init.o
- .debug_abbrev  0x0000258d      0x20d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_event_enc.o
- .debug_abbrev  0x0000279a      0x22c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_evt_conn.o
- .debug_abbrev  0x000029c6      0x2e1 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_conn.o
- .debug_abbrev  0x00002ca7      0x2ec Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_evt_conn.o
- .debug_abbrev  0x00002f93      0x3ab Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_struct_serialization.o
- .debug_abbrev  0x0000333e      0x130 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatt_struct_serialization.o
- .debug_abbrev  0x0000346e      0x1cb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_conn.o
- .debug_abbrev  0x00003639      0x264 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_evt_conn.o
- .debug_abbrev  0x0000389d      0x365 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_struct_serialization.o
- .debug_abbrev  0x00003c02      0x26e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_conn.o
- .debug_abbrev  0x00003e70      0x29a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_evt_conn.o
- .debug_abbrev  0x0000410a      0x3c2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_struct_serialization.o
- .debug_abbrev  0x000044cc      0x1fb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_conn.o
- .debug_abbrev  0x000046c7      0x2ae Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_evt_conn.o
- .debug_abbrev  0x00004975      0x1ef Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_struct_serialization.o
- .debug_abbrev  0x00004b64      0x2cc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_serialization.o
- .debug_abbrev  0x00004e30      0x2f7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_struct_serialization.o
- .debug_abbrev  0x00005127      0x10b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/cond_field_serialization.o
- .debug_abbrev  0x00005232      0x2d0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_gap_sec_keys.o
- .debug_abbrev  0x00005502      0x15a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_l2cap_sdu_pool.o
- .debug_abbrev  0x0000565c      0x123 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_user_mem.o
- .debug_abbrev  0x0000577f      0x189 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw.o
- .debug_abbrev  0x00005908      0x2c6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble.o
- .debug_abbrev  0x00005bce      0x302 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gap.o
- .debug_abbrev  0x00005ed0      0x1e0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gattc.o
- .debug_abbrev  0x000060b0      0x2b6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gatts.o
- .debug_abbrev  0x00006366      0x18b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_l2cap.o
- .debug_abbrev  0x000064f1      0x1b0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_nrf_soc.o
- .debug_abbrev  0x000066a1      0x328 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/dtm_uart.o
- .debug_abbrev  0x000069c9      0x198 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_conn.o
- .debug_abbrev  0x00006b61      0x139 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_struct_serialization.o
- .debug_abbrev  0x00006c9a      0x122 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_cmd_decoder.o
- .debug_abbrev  0x00006dbc      0x176 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_dtm_cmd_decoder.o
- .debug_abbrev  0x00006f32      0x1b8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_error_handling.o
- .debug_abbrev  0x000070ea      0x24d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_event_encoder.o
- .debug_abbrev  0x00007337      0x2c2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o
- .debug_abbrev  0x000075f9      0x118 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_pkt_decoder.o
- .debug_abbrev  0x00007711      0x2e5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder.o
- .debug_abbrev  0x000079f6      0x303 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_hal_transport.o
- .debug_abbrev  0x00007cf9      0x4c4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
- .debug_abbrev  0x000081bd      0x423 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
- .debug_abbrev  0x000085e0      0x525 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
- .debug_abbrev  0x00008b05      0x22d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
- .debug_abbrev  0x00008d32      0x46d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
- .debug_abbrev  0x0000919f      0x27b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
- .debug_abbrev  0x0000941a      0x561 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
- .debug_abbrev  0x0000997b      0x4ce Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
- .debug_abbrev  0x00009e49      0x2bc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
- .debug_abbrev  0x0000a105      0x3d4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
- .debug_abbrev  0x0000a4d9      0x144 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
- .debug_abbrev  0x0000a61d      0x534 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
- .debug_abbrev  0x0000ab51      0x270 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_srv_common.o
- .debug_abbrev  0x0000adc1      0x4d8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
- .debug_abbrev  0x0000b299      0x3e0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
- .debug_abbrev  0x0000b679      0x1e3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
+ .debug_abbrev  0x00001588      0x351 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_queue.o
+ .debug_abbrev  0x000018d9       0xbd Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_section_iter.o
+ .debug_abbrev  0x00001996      0x148 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sortlist.o
+ .debug_abbrev  0x00001ade       0x14 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ses_startup_nrf52.o
+ .debug_abbrev  0x00001af2       0x14 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ses_startup_nrf_common.o
+ .debug_abbrev  0x00001b06      0x270 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/system_nrf52.o
+ .debug_abbrev  0x00001d76      0x3b1 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/boards.o
+ .debug_abbrev  0x00002127      0x32b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn.o
+ .debug_abbrev  0x00002452      0x119 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_init.o
+ .debug_abbrev  0x0000256b      0x20d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_event_enc.o
+ .debug_abbrev  0x00002778      0x22c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_evt_conn.o
+ .debug_abbrev  0x000029a4      0x2e1 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_conn.o
+ .debug_abbrev  0x00002c85      0x2ec Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_evt_conn.o
+ .debug_abbrev  0x00002f71      0x3ab Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_struct_serialization.o
+ .debug_abbrev  0x0000331c      0x130 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatt_struct_serialization.o
+ .debug_abbrev  0x0000344c      0x1cb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_conn.o
+ .debug_abbrev  0x00003617      0x264 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_evt_conn.o
+ .debug_abbrev  0x0000387b      0x365 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_struct_serialization.o
+ .debug_abbrev  0x00003be0      0x26e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_conn.o
+ .debug_abbrev  0x00003e4e      0x29a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_evt_conn.o
+ .debug_abbrev  0x000040e8      0x3c2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_struct_serialization.o
+ .debug_abbrev  0x000044aa      0x1fb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_conn.o
+ .debug_abbrev  0x000046a5      0x2ae Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_evt_conn.o
+ .debug_abbrev  0x00004953      0x1ef Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_struct_serialization.o
+ .debug_abbrev  0x00004b42      0x2cc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_serialization.o
+ .debug_abbrev  0x00004e0e      0x2f7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_struct_serialization.o
+ .debug_abbrev  0x00005105      0x10b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/cond_field_serialization.o
+ .debug_abbrev  0x00005210      0x2d0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_gap_sec_keys.o
+ .debug_abbrev  0x000054e0      0x15a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_l2cap_sdu_pool.o
+ .debug_abbrev  0x0000563a      0x123 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_user_mem.o
+ .debug_abbrev  0x0000575d      0x189 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw.o
+ .debug_abbrev  0x000058e6      0x2c6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble.o
+ .debug_abbrev  0x00005bac      0x302 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gap.o
+ .debug_abbrev  0x00005eae      0x1e0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gattc.o
+ .debug_abbrev  0x0000608e      0x2b6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gatts.o
+ .debug_abbrev  0x00006344      0x18b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_l2cap.o
+ .debug_abbrev  0x000064cf      0x1b0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_nrf_soc.o
+ .debug_abbrev  0x0000667f      0x328 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/dtm_uart.o
+ .debug_abbrev  0x000069a7      0x198 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_conn.o
+ .debug_abbrev  0x00006b3f      0x139 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_struct_serialization.o
+ .debug_abbrev  0x00006c78      0x122 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_cmd_decoder.o
+ .debug_abbrev  0x00006d9a      0x176 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_dtm_cmd_decoder.o
+ .debug_abbrev  0x00006f10      0x1b8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_error_handling.o
+ .debug_abbrev  0x000070c8      0x24d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_event_encoder.o
+ .debug_abbrev  0x00007315      0x2c2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o
+ .debug_abbrev  0x000075d7      0x118 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_pkt_decoder.o
+ .debug_abbrev  0x000076ef      0x2e5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder.o
+ .debug_abbrev  0x000079d4      0x303 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_hal_transport.o
+ .debug_abbrev  0x00007cd7      0x4c4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+ .debug_abbrev  0x0000819b      0x423 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+ .debug_abbrev  0x000085be      0x525 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+ .debug_abbrev  0x00008ae3      0x22d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
+ .debug_abbrev  0x00008d10      0x46d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
+ .debug_abbrev  0x0000917d      0x27b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
+ .debug_abbrev  0x000093f8      0x561 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+ .debug_abbrev  0x00009959      0x4ce Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
+ .debug_abbrev  0x00009e27      0x2bc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
+ .debug_abbrev  0x0000a0e3      0x3d4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+ .debug_abbrev  0x0000a4b7      0x144 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
+ .debug_abbrev  0x0000a5fb      0x534 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
+ .debug_abbrev  0x0000ab2f      0x270 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_srv_common.o
+ .debug_abbrev  0x0000ad9f      0x4d8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+ .debug_abbrev  0x0000b277      0x3e0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
+ .debug_abbrev  0x0000b657      0x1e3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
 
 .debug_aranges  0x00000000     0x2508
  .debug_aranges
@@ -13910,7 +13910,7 @@ LOAD linker stubs
  .debug_aranges
                 0x000024e0       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
 
-.debug_str      0x00000000    0x934b0
+.debug_str      0x00000000    0x934af
  .debug_str     0x00000000       0xd4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/thumb_crt0.o
  .debug_str     0x000000d4    0x5e08e Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_error.o
                               0x5eaa2 (size before relaxing)
@@ -13948,116 +13948,116 @@ LOAD linker stubs
                                0x677c (size before relaxing)
  .debug_str     0x0007eed0     0x1c8f Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_event_enc.o
                               0x755c7 (size before relaxing)
- .debug_str     0x00080b5f      0x496 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_evt_conn.o
-                              0x6e8c0 (size before relaxing)
- .debug_str     0x00080ff5     0x1310 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_conn.o
+ .debug_str     0x00080b5f      0x495 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_evt_conn.o
+                              0x6e8bf (size before relaxing)
+ .debug_str     0x00080ff4     0x1310 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_conn.o
                               0x6d421 (size before relaxing)
- .debug_str     0x00082305      0x1d4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_evt_conn.o
+ .debug_str     0x00082304      0x1d4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_evt_conn.o
                               0x6ec78 (size before relaxing)
- .debug_str     0x000824d9      0xb61 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_struct_serialization.o
+ .debug_str     0x000824d8      0xb61 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_struct_serialization.o
                               0x6e3ba (size before relaxing)
- .debug_str     0x0008303a      0x14a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatt_struct_serialization.o
+ .debug_str     0x00083039      0x14a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatt_struct_serialization.o
                               0x6a74a (size before relaxing)
- .debug_str     0x00083184      0x5ac Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_conn.o
+ .debug_str     0x00083183      0x5ac Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_conn.o
                               0x6d936 (size before relaxing)
- .debug_str     0x00083730       0x80 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_evt_conn.o
+ .debug_str     0x0008372f       0x80 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_evt_conn.o
                               0x6e7af (size before relaxing)
- .debug_str     0x000837b0      0x5ae Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_struct_serialization.o
+ .debug_str     0x000837af      0x5ae Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_struct_serialization.o
                               0x6b0dd (size before relaxing)
- .debug_str     0x00083d5e      0x853 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_conn.o
+ .debug_str     0x00083d5d      0x853 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_conn.o
                               0x6dd7d (size before relaxing)
- .debug_str     0x000845b1       0xcb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_evt_conn.o
-                              0x6eaab (size before relaxing)
- .debug_str     0x0008467c      0x4e4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_struct_serialization.o
+ .debug_str     0x000845b0       0xcb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_evt_conn.o
+                              0x6eaaa (size before relaxing)
+ .debug_str     0x0008467b      0x4e4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_struct_serialization.o
                               0x6d813 (size before relaxing)
- .debug_str     0x00084b60      0x2f6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_conn.o
+ .debug_str     0x00084b5f      0x2f6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_conn.o
                               0x6d708 (size before relaxing)
- .debug_str     0x00084e56       0xba Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_evt_conn.o
+ .debug_str     0x00084e55       0xba Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_evt_conn.o
                               0x6e6fc (size before relaxing)
- .debug_str     0x00084f10      0x147 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_struct_serialization.o
+ .debug_str     0x00084f0f      0x147 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_struct_serialization.o
                               0x69b1b (size before relaxing)
- .debug_str     0x00085057      0x1e4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_serialization.o
+ .debug_str     0x00085056      0x1e4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_serialization.o
                               0x683e1 (size before relaxing)
- .debug_str     0x0008523b      0x26c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_struct_serialization.o
-                              0x6dbd5 (size before relaxing)
- .debug_str     0x000854a7       0x72 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/cond_field_serialization.o
+ .debug_str     0x0008523a      0x26c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_struct_serialization.o
+                              0x6dbd4 (size before relaxing)
+ .debug_str     0x000854a6       0x72 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/cond_field_serialization.o
                                0x6517 (size before relaxing)
- .debug_str     0x00085519      0x1ee Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_gap_sec_keys.o
-                              0x62450 (size before relaxing)
- .debug_str     0x00085707      0x170 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_l2cap_sdu_pool.o
+ .debug_str     0x00085518      0x1ee Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_gap_sec_keys.o
+                              0x6244f (size before relaxing)
+ .debug_str     0x00085706      0x170 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_l2cap_sdu_pool.o
                               0x6bd6f (size before relaxing)
- .debug_str     0x00085877       0xb7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_user_mem.o
-                              0x631b6 (size before relaxing)
- .debug_str     0x0008592e      0x556 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw.o
+ .debug_str     0x00085876       0xb7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_user_mem.o
+                              0x631b5 (size before relaxing)
+ .debug_str     0x0008592d      0x556 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw.o
                               0x66c07 (size before relaxing)
- .debug_str     0x00085e84      0x5e5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble.o
-                              0x724ed (size before relaxing)
- .debug_str     0x00086469      0x947 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gap.o
-                              0x665b2 (size before relaxing)
- .debug_str     0x00086db0      0x3c0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gattc.o
+ .debug_str     0x00085e83      0x5e5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble.o
+                              0x724ec (size before relaxing)
+ .debug_str     0x00086468      0x947 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gap.o
+                              0x665b1 (size before relaxing)
+ .debug_str     0x00086daf      0x3c0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gattc.o
                               0x660d1 (size before relaxing)
- .debug_str     0x00087170      0x434 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gatts.o
+ .debug_str     0x0008716f      0x434 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gatts.o
                               0x6651b (size before relaxing)
- .debug_str     0x000875a4      0x173 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_l2cap.o
+ .debug_str     0x000875a3      0x173 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_l2cap.o
                               0x65b33 (size before relaxing)
- .debug_str     0x00087717      0x1db Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_nrf_soc.o
+ .debug_str     0x00087716      0x1db Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_nrf_soc.o
                               0x61282 (size before relaxing)
- .debug_str     0x000878f2     0x1d6c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/dtm_uart.o
+ .debug_str     0x000878f1     0x1d6c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/dtm_uart.o
                               0x6f7d0 (size before relaxing)
- .debug_str     0x0008965e       0xb0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_conn.o
+ .debug_str     0x0008965d       0xb0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_conn.o
                               0x6127d (size before relaxing)
- .debug_str     0x0008970e       0xe6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_struct_serialization.o
+ .debug_str     0x0008970d       0xe6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_struct_serialization.o
                               0x68954 (size before relaxing)
- .debug_str     0x000897f4      0x6ee Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_cmd_decoder.o
-                              0x74b4d (size before relaxing)
- .debug_str     0x00089ee2      0xb17 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_dtm_cmd_decoder.o
+ .debug_str     0x000897f3      0x6ee Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_cmd_decoder.o
+                              0x74b4c (size before relaxing)
+ .debug_str     0x00089ee1      0xb17 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_dtm_cmd_decoder.o
                               0x729fd (size before relaxing)
- .debug_str     0x0008a9f9       0x94 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_error_handling.o
-                              0x71b80 (size before relaxing)
- .debug_str     0x0008aa8d       0xdc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_event_encoder.o
-                              0x75a01 (size before relaxing)
- .debug_str     0x0008ab69      0x7e7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o
-                              0x713a7 (size before relaxing)
- .debug_str     0x0008b350       0xf7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_pkt_decoder.o
-                              0x6f00f (size before relaxing)
- .debug_str     0x0008b447      0x286 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder.o
+ .debug_str     0x0008a9f8       0x94 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_error_handling.o
+                              0x71b7f (size before relaxing)
+ .debug_str     0x0008aa8c       0xdc Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_event_encoder.o
+                              0x75a00 (size before relaxing)
+ .debug_str     0x0008ab68      0x7e7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o
+                              0x713a6 (size before relaxing)
+ .debug_str     0x0008b34f       0xf7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_pkt_decoder.o
+                              0x6f00e (size before relaxing)
+ .debug_str     0x0008b446      0x286 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder.o
                               0x75596 (size before relaxing)
- .debug_str     0x0008b6cd      0x535 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_hal_transport.o
-                              0x6d1d6 (size before relaxing)
- .debug_str     0x0008bc02     0x10c9 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
-                              0x77182 (size before relaxing)
- .debug_str     0x0008cccb      0x73c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
-                              0x7053f (size before relaxing)
- .debug_str     0x0008d407      0xda7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+ .debug_str     0x0008b6cc      0x535 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_hal_transport.o
+                              0x6d1d5 (size before relaxing)
+ .debug_str     0x0008bc01     0x10c9 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+                              0x77181 (size before relaxing)
+ .debug_str     0x0008ccca      0x73c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+                              0x7053e (size before relaxing)
+ .debug_str     0x0008d406      0xda7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
                               0x71e94 (size before relaxing)
- .debug_str     0x0008e1ae      0x489 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
+ .debug_str     0x0008e1ad      0x489 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
                               0x6eab7 (size before relaxing)
- .debug_str     0x0008e637      0x81c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
+ .debug_str     0x0008e636      0x81c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
                               0x712ed (size before relaxing)
- .debug_str     0x0008ee53      0x324 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
+ .debug_str     0x0008ee52      0x324 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
                               0x709f2 (size before relaxing)
- .debug_str     0x0008f177      0x636 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+ .debug_str     0x0008f176      0x636 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
                               0x71ba3 (size before relaxing)
- .debug_str     0x0008f7ad      0x936 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
+ .debug_str     0x0008f7ac      0x936 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
                               0x72029 (size before relaxing)
- .debug_str     0x000900e3      0x1a7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
-                              0x79214 (size before relaxing)
- .debug_str     0x0009028a      0xfb2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+ .debug_str     0x000900e2      0x1a7 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
+                              0x79213 (size before relaxing)
+ .debug_str     0x00090289      0xfb2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
                               0x6bc52 (size before relaxing)
- .debug_str     0x0009123c       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
+ .debug_str     0x0009123b       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
                               0x5e87b (size before relaxing)
- .debug_str     0x00091294     0x17b5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
+ .debug_str     0x00091293     0x17b5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
                               0x734f0 (size before relaxing)
- .debug_str     0x00092a49      0x2bf Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_srv_common.o
+ .debug_str     0x00092a48      0x2bf Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_srv_common.o
                               0x6d294 (size before relaxing)
- .debug_str     0x00092d08      0x405 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+ .debug_str     0x00092d07      0x405 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
                               0x6ea4e (size before relaxing)
- .debug_str     0x0009310d      0x251 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
+ .debug_str     0x0009310c      0x251 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
                               0x738c8 (size before relaxing)
- .debug_str     0x0009335e      0x152 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
+ .debug_str     0x0009335d      0x152 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
                               0x6d9e2 (size before relaxing)
 
-.debug_ranges   0x00000000     0x4a58
+.debug_ranges   0x00000000     0x4a40
  .debug_ranges  0x00000000       0x90 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/thumb_crt0.o
  .debug_ranges  0x00000090       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_error.o
  .debug_ranges  0x000000a8      0x128 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_scheduler.o
@@ -14067,68 +14067,68 @@ LOAD linker stubs
  .debug_ranges  0x00000418      0x310 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/drv_rtc.o
  .debug_ranges  0x00000728       0xc0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_atfifo.o
  .debug_ranges  0x000007e8       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_balloc.o
- .debug_ranges  0x00000838      0x230 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_queue.o
- .debug_ranges  0x00000a68       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_section_iter.o
- .debug_ranges  0x00000a80       0x30 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sortlist.o
- .debug_ranges  0x00000ab0       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/system_nrf52.o
- .debug_ranges  0x00000ad8      0x6b8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/boards.o
- .debug_ranges  0x00001190       0xd0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn.o
- .debug_ranges  0x00001260       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_init.o
- .debug_ranges  0x00001278       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_event_enc.o
- .debug_ranges  0x00001288       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_evt_conn.o
- .debug_ranges  0x000012a0      0x360 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_conn.o
- .debug_ranges  0x00001600       0xc8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_evt_conn.o
- .debug_ranges  0x000016c8      0x3d0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_struct_serialization.o
- .debug_ranges  0x00001a98       0x38 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatt_struct_serialization.o
- .debug_ranges  0x00001ad0       0xb8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_conn.o
- .debug_ranges  0x00001b88       0x78 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_evt_conn.o
- .debug_ranges  0x00001c00      0x288 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_struct_serialization.o
- .debug_ranges  0x00001e88       0xe8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_conn.o
- .debug_ranges  0x00001f70       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_evt_conn.o
- .debug_ranges  0x00001fc0      0x1d8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_struct_serialization.o
- .debug_ranges  0x00002198       0x98 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_conn.o
- .debug_ranges  0x00002230       0x48 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_evt_conn.o
- .debug_ranges  0x00002278       0x78 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_struct_serialization.o
- .debug_ranges  0x000022f0      0x160 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_serialization.o
- .debug_ranges  0x00002450       0xa8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_struct_serialization.o
- .debug_ranges  0x000024f8       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/cond_field_serialization.o
- .debug_ranges  0x00002510       0x80 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_gap_sec_keys.o
- .debug_ranges  0x00002590       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_l2cap_sdu_pool.o
- .debug_ranges  0x000025b8       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_user_mem.o
- .debug_ranges  0x000025e0       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw.o
- .debug_ranges  0x00002608       0x90 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble.o
- .debug_ranges  0x00002698      0x278 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gap.o
- .debug_ranges  0x00002910       0xb8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gattc.o
- .debug_ranges  0x000029c8       0xe8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gatts.o
- .debug_ranges  0x00002ab0       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_l2cap.o
- .debug_ranges  0x00002b08       0x38 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_nrf_soc.o
- .debug_ranges  0x00002b40       0x88 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/dtm_uart.o
- .debug_ranges  0x00002bc8       0x30 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_conn.o
- .debug_ranges  0x00002bf8       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_struct_serialization.o
- .debug_ranges  0x00002c20       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_cmd_decoder.o
- .debug_ranges  0x00002c30       0x20 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_dtm_cmd_decoder.o
- .debug_ranges  0x00002c50       0x38 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_error_handling.o
- .debug_ranges  0x00002c88       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_event_encoder.o
- .debug_ranges  0x00002c98       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o
- .debug_ranges  0x00002ce8       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_pkt_decoder.o
- .debug_ranges  0x00002d10       0x60 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder.o
- .debug_ranges  0x00002d70       0x90 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_hal_transport.o
- .debug_ranges  0x00002e00      0x478 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
- .debug_ranges  0x00003278      0x128 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
- .debug_ranges  0x000033a0      0x1b0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
- .debug_ranges  0x00003550       0x20 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
- .debug_ranges  0x00003570      0x168 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
- .debug_ranges  0x000036d8       0x38 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
- .debug_ranges  0x00003710      0x638 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
- .debug_ranges  0x00003d48      0x5c8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
- .debug_ranges  0x00004310       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
- .debug_ranges  0x00004368      0x1c8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
- .debug_ranges  0x00004530       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
- .debug_ranges  0x00004558      0x218 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
- .debug_ranges  0x00004770       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_srv_common.o
- .debug_ranges  0x000047c0      0x198 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
- .debug_ranges  0x00004958       0xb0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
- .debug_ranges  0x00004a08       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
+ .debug_ranges  0x00000838      0x218 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_queue.o
+ .debug_ranges  0x00000a50       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_section_iter.o
+ .debug_ranges  0x00000a68       0x30 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sortlist.o
+ .debug_ranges  0x00000a98       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/system_nrf52.o
+ .debug_ranges  0x00000ac0      0x6b8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/boards.o
+ .debug_ranges  0x00001178       0xd0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn.o
+ .debug_ranges  0x00001248       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_init.o
+ .debug_ranges  0x00001260       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_event_enc.o
+ .debug_ranges  0x00001270       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_evt_conn.o
+ .debug_ranges  0x00001288      0x360 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_conn.o
+ .debug_ranges  0x000015e8       0xc8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_evt_conn.o
+ .debug_ranges  0x000016b0      0x3d0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_struct_serialization.o
+ .debug_ranges  0x00001a80       0x38 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatt_struct_serialization.o
+ .debug_ranges  0x00001ab8       0xb8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_conn.o
+ .debug_ranges  0x00001b70       0x78 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_evt_conn.o
+ .debug_ranges  0x00001be8      0x288 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_struct_serialization.o
+ .debug_ranges  0x00001e70       0xe8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_conn.o
+ .debug_ranges  0x00001f58       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_evt_conn.o
+ .debug_ranges  0x00001fa8      0x1d8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_struct_serialization.o
+ .debug_ranges  0x00002180       0x98 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_conn.o
+ .debug_ranges  0x00002218       0x48 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_evt_conn.o
+ .debug_ranges  0x00002260       0x78 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_struct_serialization.o
+ .debug_ranges  0x000022d8      0x160 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_serialization.o
+ .debug_ranges  0x00002438       0xa8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_struct_serialization.o
+ .debug_ranges  0x000024e0       0x18 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/cond_field_serialization.o
+ .debug_ranges  0x000024f8       0x80 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_gap_sec_keys.o
+ .debug_ranges  0x00002578       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_l2cap_sdu_pool.o
+ .debug_ranges  0x000025a0       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_user_mem.o
+ .debug_ranges  0x000025c8       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw.o
+ .debug_ranges  0x000025f0       0x90 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble.o
+ .debug_ranges  0x00002680      0x278 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gap.o
+ .debug_ranges  0x000028f8       0xb8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gattc.o
+ .debug_ranges  0x000029b0       0xe8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gatts.o
+ .debug_ranges  0x00002a98       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_l2cap.o
+ .debug_ranges  0x00002af0       0x38 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_nrf_soc.o
+ .debug_ranges  0x00002b28       0x88 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/dtm_uart.o
+ .debug_ranges  0x00002bb0       0x30 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_conn.o
+ .debug_ranges  0x00002be0       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_struct_serialization.o
+ .debug_ranges  0x00002c08       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_cmd_decoder.o
+ .debug_ranges  0x00002c18       0x20 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_dtm_cmd_decoder.o
+ .debug_ranges  0x00002c38       0x38 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_error_handling.o
+ .debug_ranges  0x00002c70       0x10 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_event_encoder.o
+ .debug_ranges  0x00002c80       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o
+ .debug_ranges  0x00002cd0       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_pkt_decoder.o
+ .debug_ranges  0x00002cf8       0x60 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder.o
+ .debug_ranges  0x00002d58       0x90 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_hal_transport.o
+ .debug_ranges  0x00002de8      0x478 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+ .debug_ranges  0x00003260      0x128 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+ .debug_ranges  0x00003388      0x1b0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+ .debug_ranges  0x00003538       0x20 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
+ .debug_ranges  0x00003558      0x168 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
+ .debug_ranges  0x000036c0       0x38 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
+ .debug_ranges  0x000036f8      0x638 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+ .debug_ranges  0x00003d30      0x5c8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
+ .debug_ranges  0x000042f8       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
+ .debug_ranges  0x00004350      0x1c8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+ .debug_ranges  0x00004518       0x28 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
+ .debug_ranges  0x00004540      0x218 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
+ .debug_ranges  0x00004758       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_srv_common.o
+ .debug_ranges  0x000047a8      0x198 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+ .debug_ranges  0x00004940       0xb0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
+ .debug_ranges  0x000049f0       0x50 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
 
 .debug_frame    0x00000000     0x95cc
  .debug_frame   0x00000000       0x58 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_error.o
@@ -14202,7 +14202,7 @@ LOAD linker stubs
  .debug_frame   0x00009478       0xf8 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
  .debug_frame   0x00009570       0x5c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
 
-.debug_loc      0x00000000    0x40c11
+.debug_loc      0x00000000    0x40b9c
  .debug_loc     0x00000000       0xcd Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_error.o
  .debug_loc     0x000000cd      0x365 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_scheduler.o
  .debug_loc     0x00000432      0x757 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/app_timer2.o
@@ -14211,67 +14211,67 @@ LOAD linker stubs
  .debug_loc     0x00000e96     0x11ae Output/Release/Obj/ble_connectivity_s132_hci_pca10040/drv_rtc.o
  .debug_loc     0x00002044      0x47c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_atfifo.o
  .debug_loc     0x000024c0      0x1a6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_balloc.o
- .debug_loc     0x00002666      0xada Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_queue.o
- .debug_loc     0x00003140      0x171 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sortlist.o
- .debug_loc     0x000032b1       0xce Output/Release/Obj/ble_connectivity_s132_hci_pca10040/system_nrf52.o
- .debug_loc     0x0000337f      0xf60 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/boards.o
- .debug_loc     0x000042df     0x25ae Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn.o
- .debug_loc     0x0000688d      0x19c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_init.o
- .debug_loc     0x00006a29     0x1948 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_event_enc.o
- .debug_loc     0x00008371      0x40b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_evt_conn.o
- .debug_loc     0x0000877c     0x654c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_conn.o
- .debug_loc     0x0000ecc8     0x2bdd Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_evt_conn.o
- .debug_loc     0x000118a5     0x8f9f Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_struct_serialization.o
- .debug_loc     0x0001a844      0x650 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatt_struct_serialization.o
- .debug_loc     0x0001ae94     0x18be Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_conn.o
- .debug_loc     0x0001c752     0x1c65 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_evt_conn.o
- .debug_loc     0x0001e3b7     0x4728 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_struct_serialization.o
- .debug_loc     0x00022adf     0x2c13 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_conn.o
- .debug_loc     0x000256f2      0xe96 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_evt_conn.o
- .debug_loc     0x00026588     0x3cc4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_struct_serialization.o
- .debug_loc     0x0002a24c      0xf36 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_conn.o
- .debug_loc     0x0002b182     0x11b6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_evt_conn.o
- .debug_loc     0x0002c338     0x12d0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_struct_serialization.o
- .debug_loc     0x0002d608     0x1917 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_serialization.o
- .debug_loc     0x0002ef1f     0x1dc1 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_struct_serialization.o
- .debug_loc     0x00030ce0      0x269 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/cond_field_serialization.o
- .debug_loc     0x00030f49      0x4df Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_gap_sec_keys.o
- .debug_loc     0x00031428      0x174 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_l2cap_sdu_pool.o
- .debug_loc     0x0003159c      0x24b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_user_mem.o
- .debug_loc     0x000317e7      0x1fb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw.o
- .debug_loc     0x000319e2      0xb2d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble.o
- .debug_loc     0x0003250f     0x3108 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gap.o
- .debug_loc     0x00035617      0xf7d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gattc.o
- .debug_loc     0x00036594     0x1233 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gatts.o
- .debug_loc     0x000377c7      0x62c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_l2cap.o
- .debug_loc     0x00037df3      0x3a3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_nrf_soc.o
- .debug_loc     0x00038196      0x402 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/dtm_uart.o
- .debug_loc     0x00038598      0x63f Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_conn.o
- .debug_loc     0x00038bd7      0x50d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_struct_serialization.o
- .debug_loc     0x000390e4      0x165 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_cmd_decoder.o
- .debug_loc     0x00039249       0xf2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_dtm_cmd_decoder.o
- .debug_loc     0x0003933b       0xd3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_error_handling.o
- .debug_loc     0x0003940e      0x154 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_event_encoder.o
- .debug_loc     0x00039562       0xd4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o
- .debug_loc     0x00039636      0x164 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_pkt_decoder.o
- .debug_loc     0x0003979a      0x18a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder.o
- .debug_loc     0x00039924      0x54a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_hal_transport.o
- .debug_loc     0x00039e6e      0xd8b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
- .debug_loc     0x0003abf9      0x677 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
- .debug_loc     0x0003b270      0x52a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
- .debug_loc     0x0003b79a      0x1b6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
- .debug_loc     0x0003b950      0x2e0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
- .debug_loc     0x0003bc30       0xff Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
- .debug_loc     0x0003bd2f     0x15d3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
- .debug_loc     0x0003d302     0x1751 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
- .debug_loc     0x0003ea53       0xd5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
- .debug_loc     0x0003eb28      0xbcd Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
- .debug_loc     0x0003f6f5       0xb9 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
- .debug_loc     0x0003f7ae      0xb8c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
- .debug_loc     0x0004033a      0x293 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_srv_common.o
- .debug_loc     0x000405cd      0x2de Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
- .debug_loc     0x000408ab      0x2ab Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
- .debug_loc     0x00040b56       0xbb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
+ .debug_loc     0x00002666      0xa65 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_queue.o
+ .debug_loc     0x000030cb      0x171 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sortlist.o
+ .debug_loc     0x0000323c       0xce Output/Release/Obj/ble_connectivity_s132_hci_pca10040/system_nrf52.o
+ .debug_loc     0x0000330a      0xf60 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/boards.o
+ .debug_loc     0x0000426a     0x25ae Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn.o
+ .debug_loc     0x00006818      0x19c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_init.o
+ .debug_loc     0x000069b4     0x1948 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_event_enc.o
+ .debug_loc     0x000082fc      0x40b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_evt_conn.o
+ .debug_loc     0x00008707     0x654c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_conn.o
+ .debug_loc     0x0000ec53     0x2bdd Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_evt_conn.o
+ .debug_loc     0x00011830     0x8f9f Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gap_struct_serialization.o
+ .debug_loc     0x0001a7cf      0x650 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatt_struct_serialization.o
+ .debug_loc     0x0001ae1f     0x18be Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_conn.o
+ .debug_loc     0x0001c6dd     0x1c65 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_evt_conn.o
+ .debug_loc     0x0001e342     0x4728 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gattc_struct_serialization.o
+ .debug_loc     0x00022a6a     0x2c13 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_conn.o
+ .debug_loc     0x0002567d      0xe96 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_evt_conn.o
+ .debug_loc     0x00026513     0x3cc4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_gatts_struct_serialization.o
+ .debug_loc     0x0002a1d7      0xf36 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_conn.o
+ .debug_loc     0x0002b10d     0x11b6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_evt_conn.o
+ .debug_loc     0x0002c2c3     0x12d0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_l2cap_struct_serialization.o
+ .debug_loc     0x0002d593     0x1917 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_serialization.o
+ .debug_loc     0x0002eeaa     0x1dc1 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_struct_serialization.o
+ .debug_loc     0x00030c6b      0x269 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/cond_field_serialization.o
+ .debug_loc     0x00030ed4      0x4df Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_gap_sec_keys.o
+ .debug_loc     0x000313b3      0x174 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_l2cap_sdu_pool.o
+ .debug_loc     0x00031527      0x24b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_ble_user_mem.o
+ .debug_loc     0x00031772      0x1fb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw.o
+ .debug_loc     0x0003196d      0xb2d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble.o
+ .debug_loc     0x0003249a     0x3108 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gap.o
+ .debug_loc     0x000355a2      0xf7d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gattc.o
+ .debug_loc     0x0003651f     0x1233 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_gatts.o
+ .debug_loc     0x00037752      0x62c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_ble_l2cap.o
+ .debug_loc     0x00037d7e      0x3a3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/conn_mw_nrf_soc.o
+ .debug_loc     0x00038121      0x402 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/dtm_uart.o
+ .debug_loc     0x00038523      0x63f Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_conn.o
+ .debug_loc     0x00038b62      0x50d Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_soc_struct_serialization.o
+ .debug_loc     0x0003906f      0x165 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_cmd_decoder.o
+ .debug_loc     0x000391d4       0xf2 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_dtm_cmd_decoder.o
+ .debug_loc     0x000392c6       0xd3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_error_handling.o
+ .debug_loc     0x00039399      0x154 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_event_encoder.o
+ .debug_loc     0x000394ed       0xd4 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_handlers.o
+ .debug_loc     0x000395c1      0x164 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_pkt_decoder.o
+ .debug_loc     0x00039725      0x18a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_conn_reset_cmd_decoder.o
+ .debug_loc     0x000398af      0x54a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_hal_transport.o
+ .debug_loc     0x00039df9      0xd8b Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci.o
+ .debug_loc     0x0003ab84      0x677 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ser_phy_hci_slip.o
+ .debug_loc     0x0003b1fb      0x52a Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_clock.o
+ .debug_loc     0x0003b725      0x1b6 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_drv_uart.o
+ .debug_loc     0x0003b8db      0x2e0 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_clock.o
+ .debug_loc     0x0003bbbb       0xff Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_prs.o
+ .debug_loc     0x0003bcba     0x15d3 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uart.o
+ .debug_loc     0x0003d28d     0x1751 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrfx_uarte.o
+ .debug_loc     0x0003e9de       0xd5 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/main.o
+ .debug_loc     0x0003eab3      0xbcd Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm.o
+ .debug_loc     0x0003f680       0xb9 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_dtm_hw_nrf52.o
+ .debug_loc     0x0003f739      0xb8c Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_conn_params.o
+ .debug_loc     0x000402c5      0x293 Output/Release/Obj/ble_connectivity_s132_hci_pca10040/ble_srv_common.o
+ .debug_loc     0x00040558      0x2de Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh.o
+ .debug_loc     0x00040836      0x2ab Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_ble.o
+ .debug_loc     0x00040ae1       0xbb Output/Release/Obj/ble_connectivity_s132_hci_pca10040/nrf_sdh_soc.o
 
 .debug_pubnames
                 0x00000000    0x14d5f
