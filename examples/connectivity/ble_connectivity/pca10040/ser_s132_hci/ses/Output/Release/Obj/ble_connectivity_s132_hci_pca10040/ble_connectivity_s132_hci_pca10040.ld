@@ -1,12 +1,16 @@
 MEMORY
 {
   UNPLACED_SECTIONS (wx) : ORIGIN = 0x100000000, LENGTH = 0
+  connectivity_version_info (wx) : ORIGIN = 0x00050000, LENGTH = 0x00000018
   RAM1 (wx) : ORIGIN = 0x20000000, LENGTH = 0x00010000
   FLASH (wx) : ORIGIN = 0x00000000, LENGTH = 0x00080000
 }
 
 SECTIONS
 {
+  __connectivity_version_info_segment_start__ = 0x00050000;
+  __connectivity_version_info_segment_end__ = 0x00050018;
+  __connectivity_version_info_segment_size__ = 0x00000018;
   __RAM1_segment_start__ = 0x20000000;
   __RAM1_segment_end__ = 0x20010000;
   __RAM1_segment_size__ = 0x00010000;
@@ -17,6 +21,24 @@ SECTIONS
   __HEAPSIZE__ = 512;
   __STACKSIZE_PROCESS__ = 0;
   __STACKSIZE__ = 2048;
+
+  __connectivity_version_info_load_start__ = 0x50000;
+  .connectivity_version_info 0x50000 : AT(0x50000)
+  {
+    __connectivity_version_info_start__ = .;
+    __start_connectivity_version_info =   __connectivity_version_info_start__;
+    KEEP(*(.connectivity_version_info .connectivity_version_info.*))
+    . = ALIGN(MAX(__connectivity_version_info_start__ + 0x18 , .), 4);
+  }
+  __connectivity_version_info_end__ = __connectivity_version_info_start__ + SIZEOF(.connectivity_version_info);
+  __connectivity_version_info_size__ = SIZEOF(.connectivity_version_info);
+  __stop_connectivity_version_info =   __connectivity_version_info_end__;
+  __connectivity_version_info_load_end__ = __connectivity_version_info_end__;
+
+  __connectivity_version_info_segment_used_end__ = 0x50000 + SIZEOF(.connectivity_version_info);
+  __connectivity_version_info_segment_used_size__ = __connectivity_version_info_segment_used_end__ - __connectivity_version_info_segment_start__;
+
+  . = ASSERT(__connectivity_version_info_start__ == __connectivity_version_info_end__ || (__connectivity_version_info_end__ - __connectivity_version_info_segment_start__) <= __connectivity_version_info_segment_size__ , "error: .connectivity_version_info is too large to fit in connectivity_version_info memory segment");
 
   __reserved_ram_load_start__ = 0x20000000;
   .reserved_ram 0x20000000 (NOLOAD) : AT(0x20000000)
