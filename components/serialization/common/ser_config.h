@@ -103,9 +103,9 @@ extern "C" {
 #define SER_PHY_SPI_MTU_SIZE            255
 
 /** UART transmission parameters */
-#define SER_PHY_UART_FLOW_CTRL          NRF_UART_HWFC_ENABLED
-#define SER_PHY_UART_PARITY             NRF_UART_PARITY_INCLUDED
-#define SER_PHY_UART_BAUDRATE_VAL       115200//1000000
+#define SER_PHY_UART_FLOW_CTRL          NRF_UART_HWFC_DISABLED
+#define SER_PHY_UART_PARITY             NRF_UART_PARITY_EXCLUDED
+#define SER_PHY_UART_BAUDRATE_VAL       1000000
 
 #define SER_PHY_UART_BAUDRATE CONCAT_2(NRF_UART_BAUDRATE_,SER_PHY_UART_BAUDRATE_VAL)
 
@@ -123,6 +123,7 @@ extern "C" {
 #define SER_MAX_ADV_DATA 256
 #endif
  
+#define HCI_LINK_CONTROL
 #ifdef __cplusplus
 }
 #endif
