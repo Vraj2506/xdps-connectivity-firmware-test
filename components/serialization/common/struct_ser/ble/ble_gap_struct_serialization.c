@@ -103,7 +103,7 @@ uint32_t ble_gap_evt_adv_report_t_dec(uint8_t const * const p_buf,
     SER_PULL_FIELD(&p_struct->aux_pointer, ble_gap_aux_pointer_t_dec);
 #else
     uint8_t ser_data;
-    uint8_t data_len = BLE_GAP_ADV_MAX_SIZE;
+    uint8_t data_len = BLE_GAP_ADV_SET_DATA_SIZE_MAX;
     uint8_t * p_field_data = p_struct->data;
     SER_PULL_FIELD(&p_struct->peer_addr, ble_gap_addr_t_dec);
     SER_PULL_FIELD(&p_struct->direct_addr, ble_gap_addr_t_dec);

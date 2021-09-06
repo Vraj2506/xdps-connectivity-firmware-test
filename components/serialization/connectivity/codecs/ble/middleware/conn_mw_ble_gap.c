@@ -228,11 +228,11 @@ uint32_t conn_mw_ble_gap_adv_data_set(uint8_t const * const p_rx_buf,
    SER_ASSERT_NOT_NULL(p_tx_buf);
    SER_ASSERT_NOT_NULL(p_tx_buf_len);
 
-   uint8_t   data[BLE_GAP_ADV_MAX_SIZE];
+   uint8_t   data[BLE_GAP_ADV_SET_DATA_SIZE_MAX];
    uint8_t * p_data = data;
    uint8_t   dlen   = sizeof (data);
 
-   uint8_t   sr_data[BLE_GAP_ADV_MAX_SIZE];
+   uint8_t   sr_data[BLE_GAP_ADV_SET_DATA_SIZE_MAX];
    uint8_t * p_sr_data = sr_data;
    uint8_t   srdlen    = sizeof (sr_data);
 

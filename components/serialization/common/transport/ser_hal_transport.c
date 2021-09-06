@@ -362,10 +362,10 @@ void ser_hal_transport_close(void)
     ser_phy_close();
 }
 
-
+uint8_t * rx_buf_loc = NULL;
 uint32_t ser_hal_transport_rx_pkt_free(uint8_t * p_buffer)
 {
-
+    rx_buf_loc = &m_rx_buffer[0];
     NRF_LOG_INFO("rx pkt free:%d", p_buffer);
     uint32_t err_code = NRF_SUCCESS;
 
@@ -375,9 +375,10 @@ uint32_t ser_hal_transport_rx_pkt_free(uint8_t * p_buffer)
     {
         err_code = NRF_ERROR_NULL;
     }
-    else if (p_buffer != m_rx_buffer)
+    else if (p_buffer != &m_rx_buffer[0])
     {
         err_code = NRF_ERROR_INVALID_ADDR;
+        return err_code;
     }
     else if (HAL_TRANSP_RX_STATE_RECEIVED == m_rx_state)
     {
@@ -437,11 +438,12 @@ uint32_t ser_hal_transport_tx_pkt_alloc(uint8_t * * pp_memory, uint16_t * p_num_
     return err_code;
 }
 
+uint8_t * tx_buf_loc = NULL;
 
 uint32_t ser_hal_transport_tx_pkt_send(const uint8_t * p_buffer, uint16_t num_of_bytes)
 {
     uint32_t err_code = NRF_SUCCESS;
-
+    tx_buf_loc = &m_tx_buffer[0];
     /* The buffer provided to this function must be allocated through ser_hal_transport_tx_alloc()
      * function - this assures correct state and that correct memory buffer is used. */
     if (NULL == p_buffer)
@@ -452,9 +454,10 @@ uint32_t ser_hal_transport_tx_pkt_send(const uint8_t * p_buffer, uint16_t num_of
     {
         err_code = NRF_ERROR_INVALID_PARAM;
     }
-    else if (p_buffer != m_tx_buffer)
+    else if (p_buffer != &m_tx_buffer[0])
     {
         err_code = NRF_ERROR_INVALID_ADDR;
+        return err_code;
     }
     else if (num_of_bytes > sizeof (m_tx_buffer))
     {
@@ -495,9 +498,11 @@ uint32_t ser_hal_transport_tx_pkt_free(uint8_t * p_buffer)
     {
         err_code = NRF_ERROR_NULL;
     }
-    else if (p_buffer != m_tx_buffer)
+    
+    else if (p_buffer != &m_tx_buffer[0])
     {
         err_code = NRF_ERROR_INVALID_ADDR;
+        return err_code;
     }
     else if ((HAL_TRANSP_TX_STATE_TX_ALLOCATED == m_tx_state) ||
              (HAL_TRANSP_TX_STATE_TRANSMITTED == m_tx_state))

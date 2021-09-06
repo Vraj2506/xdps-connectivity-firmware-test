@@ -98,7 +98,7 @@ uint32_t ser_conn_received_pkt_process(
                 break;
             }
         }
-
+        
         if (NRF_SUCCESS == err_code)
         {
             /* Free a received packet. */
