@@ -1,0 +1,5 @@
+*.jlink
+*.emSession
+*.d
+*.o
+*.bak
